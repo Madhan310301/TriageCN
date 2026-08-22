@@ -1,541 +1,541 @@
-cve_id,product_name,cvss_base_score,cisa_kev,first_epss
-CVE-2025-5380,Core Banking Framework,9.8,False,0.02704
-CVE-2025-7833,Core Banking Framework,8.1,False,0.04122
-CVE-2025-2291,Identity Provider SaaS,8.4,False,0.04667
-CVE-2026-1698,Identity Provider SaaS,4.3,True,0.556
-CVE-2026-2678,Cloud Database Engine,9.9,False,0.01935
-CVE-2026-1133,Enterprise Router OS,9.0,False,0.01403
-CVE-2026-9322,Embedded IoT Gateway,8.9,False,0.02799
-CVE-2026-3731,Core Banking Framework,8.5,False,0.01065
-CVE-2025-1860,Identity Provider SaaS,5.6,False,0.03797
-CVE-2023-1995,Embedded IoT Gateway,5.6,True,0.63875
-CVE-2022-8400,Identity Provider SaaS,7.1,False,0.02827
-CVE-2023-9945,Identity Provider SaaS,6.4,False,0.81349
-CVE-2024-5636,Identity Provider SaaS,5.3,False,0.5384
-CVE-2024-7287,Cloud Database Engine,6.4,False,0.01774
-CVE-2025-6625,Enterprise Router OS,8.7,False,0.04319
-CVE-2024-5496,Core Banking Framework,4.9,False,0.01328
-CVE-2025-3693,Cloud Database Engine,7.7,False,0.02919
-CVE-2023-1262,Enterprise Router OS,6.8,False,0.03503
-CVE-2025-2693,Enterprise Router OS,9.4,False,0.00903
-CVE-2025-5199,Identity Provider SaaS,4.2,False,0.00926
-CVE-2025-1860,Core Banking Framework,6.8,False,0.02542
-CVE-2022-2306,Cloud Database Engine,8.8,False,0.89403
-CVE-2022-1391,Core Banking Framework,4.0,False,0.70615
-CVE-2026-8027,Web Application Firewall,5.4,False,0.03617
-CVE-2023-2816,Web Application Firewall,4.9,False,0.0423
-CVE-2022-6917,Embedded IoT Gateway,4.6,False,0.0125
-CVE-2024-3255,Core Banking Framework,5.1,False,0.00492
-CVE-2022-3961,Embedded IoT Gateway,5.4,False,0.01808
-CVE-2022-3967,Core Banking Framework,6.9,False,0.02811
-CVE-2022-3143,Identity Provider SaaS,6.3,False,0.03057
-CVE-2025-1728,Enterprise Router OS,5.4,False,0.01267
-CVE-2023-1466,Web Application Firewall,5.1,False,0.04489
-CVE-2025-1717,Identity Provider SaaS,7.1,False,0.00605
-CVE-2025-5380,Identity Provider SaaS,9.2,False,0.00896
-CVE-2022-9755,Enterprise Router OS,8.3,False,0.04201
-CVE-2024-5496,Web Application Firewall,9.8,False,0.03694
-CVE-2022-8996,Enterprise Router OS,7.7,False,0.00814
-CVE-2024-7801,Enterprise Router OS,6.2,False,0.02767
-CVE-2025-9666,Cloud Database Engine,4.5,False,0.37935
-CVE-2026-5887,Identity Provider SaaS,6.1,False,0.04827
-CVE-2024-1225,Cloud Database Engine,5.1,True,0.80396
-CVE-2025-2484,Core Banking Framework,4.8,False,0.0086
-CVE-2024-3427,Core Banking Framework,8.9,False,0.01826
-CVE-2026-4440,Cloud Database Engine,6.4,False,0.01916
-CVE-2025-5869,Core Banking Framework,5.8,False,0.01199
-CVE-2024-9808,Cloud Database Engine,7.3,False,0.00629
-CVE-2022-5555,Identity Provider SaaS,7.8,False,0.83994
-CVE-2023-8455,Enterprise Router OS,7.2,False,0.00801
-CVE-2023-1197,Core Banking Framework,5.5,False,0.68752
-CVE-2025-7420,Core Banking Framework,9.3,False,0.00598
-CVE-2026-1412,Core Banking Framework,4.8,False,0.00792
-CVE-2024-6618,Embedded IoT Gateway,8.3,False,0.03485
-CVE-2024-3703,Cloud Database Engine,5.5,False,0.04547
-CVE-2026-5887,Web Application Firewall,6.4,False,0.00809
-CVE-2024-8683,Web Application Firewall,4.6,False,0.02985
-CVE-2025-7278,Core Banking Framework,4.6,False,0.00658
-CVE-2025-8098,Core Banking Framework,5.0,False,0.01694
-CVE-2024-9110,Identity Provider SaaS,7.5,False,0.52793
-CVE-2026-8158,Cloud Database Engine,6.0,False,0.04603
-CVE-2023-7303,Identity Provider SaaS,8.4,False,0.0229
-CVE-2025-5869,Web Application Firewall,5.1,False,0.04578
-CVE-2025-4051,Core Banking Framework,7.5,False,0.75121
-CVE-2022-2636,Enterprise Router OS,4.9,False,0.97787
-CVE-2024-6892,Enterprise Router OS,5.9,False,0.04009
-CVE-2026-7873,Web Application Firewall,5.1,True,0.62101
-CVE-2024-4556,Cloud Database Engine,5.8,False,0.02696
-CVE-2023-9815,Cloud Database Engine,7.0,False,0.52737
-CVE-2025-1854,Embedded IoT Gateway,9.0,False,0.02781
-CVE-2026-8860,Core Banking Framework,7.6,False,0.04443
-CVE-2023-6791,Cloud Database Engine,8.8,False,0.04044
-CVE-2023-9716,Web Application Firewall,5.2,False,0.00114
-CVE-2026-2191,Enterprise Router OS,5.2,True,0.42338
-CVE-2026-7863,Core Banking Framework,6.5,False,0.01742
-CVE-2024-2122,Cloud Database Engine,6.2,True,0.86485
-CVE-2022-8114,Web Application Firewall,8.6,False,0.01137
-CVE-2024-1504,Enterprise Router OS,9.2,False,0.04009
-CVE-2022-5611,Cloud Database Engine,4.1,False,0.03186
-CVE-2022-3141,Web Application Firewall,7.9,False,0.91239
-CVE-2024-7287,Core Banking Framework,4.1,False,0.69203
-CVE-2023-1995,Enterprise Router OS,6.4,False,0.00578
-CVE-2025-1775,Enterprise Router OS,5.6,False,0.03184
-CVE-2023-8509,Enterprise Router OS,6.5,False,0.00282
-CVE-2022-8404,Identity Provider SaaS,4.5,False,0.86921
-CVE-2022-5555,Embedded IoT Gateway,8.3,False,0.02406
-CVE-2023-1262,Web Application Firewall,4.8,False,0.02722
-CVE-2026-6745,Embedded IoT Gateway,4.3,False,0.01705
-CVE-2023-2816,Cloud Database Engine,4.6,True,0.79517
-CVE-2025-9002,Core Banking Framework,8.1,False,0.04105
-CVE-2025-1728,Embedded IoT Gateway,8.2,False,0.01837
-CVE-2022-9006,Identity Provider SaaS,9.5,False,0.02258
-CVE-2023-7396,Web Application Firewall,9.7,False,0.03807
-CVE-2023-2679,Enterprise Router OS,9.4,False,0.00305
-CVE-2025-7235,Cloud Database Engine,7.5,False,0.02392
-CVE-2025-4141,Core Banking Framework,8.4,False,0.5868
-CVE-2025-2291,Web Application Firewall,4.3,False,0.03241
-CVE-2024-3558,Identity Provider SaaS,7.4,False,0.02675
-CVE-2026-5465,Embedded IoT Gateway,7.4,False,0.03325
-CVE-2023-7303,Enterprise Router OS,9.3,False,0.00171
-CVE-2025-6919,Cloud Database Engine,4.1,False,0.04698
-CVE-2026-6745,Identity Provider SaaS,10.0,False,0.0204
-CVE-2024-5171,Embedded IoT Gateway,7.8,False,0.03853
-CVE-2026-2678,Web Application Firewall,4.0,False,0.04271
-CVE-2026-2060,Web Application Firewall,7.5,False,0.00273
-CVE-2022-8996,Identity Provider SaaS,9.7,False,0.58395
-CVE-2022-5555,Web Application Firewall,7.7,False,0.01197
-CVE-2026-1606,Core Banking Framework,7.9,False,0.01192
-CVE-2025-1825,Enterprise Router OS,5.3,False,0.01783
-CVE-2023-3539,Web Application Firewall,9.8,False,0.04975
-CVE-2024-1863,Identity Provider SaaS,6.4,False,0.00812
-CVE-2023-1784,Identity Provider SaaS,5.3,False,0.02985
-CVE-2024-7287,Identity Provider SaaS,9.3,False,0.90435
-CVE-2025-1825,Embedded IoT Gateway,4.2,False,0.03689
-CVE-2026-9529,Embedded IoT Gateway,4.7,False,0.00355
-CVE-2026-1417,Web Application Firewall,7.6,False,0.03406
-CVE-2026-4440,Enterprise Router OS,9.3,False,0.0426
-CVE-2023-8721,Enterprise Router OS,6.0,False,0.00574
-CVE-2023-6854,Web Application Firewall,5.1,False,0.02354
-CVE-2023-4843,Cloud Database Engine,4.8,False,0.00846
-CVE-2026-5330,Web Application Firewall,8.5,False,0.00466
-CVE-2023-6854,Enterprise Router OS,7.4,False,0.00095
-CVE-2026-6801,Web Application Firewall,5.7,True,0.59392
-CVE-2025-2484,Web Application Firewall,8.5,False,0.03866
-CVE-2023-2066,Enterprise Router OS,8.6,False,0.00337
-CVE-2024-5499,Identity Provider SaaS,9.1,False,0.02257
-CVE-2025-8192,Identity Provider SaaS,7.6,False,0.85863
-CVE-2022-4763,Identity Provider SaaS,5.5,True,0.40808
-CVE-2025-1825,Core Banking Framework,9.7,False,0.02659
-CVE-2026-7316,Core Banking Framework,5.8,False,0.01189
-CVE-2025-1775,Identity Provider SaaS,9.7,False,0.04721
-CVE-2022-2636,Web Application Firewall,8.6,False,0.01638
-CVE-2023-3047,Cloud Database Engine,5.3,True,0.74313
-CVE-2023-7396,Cloud Database Engine,9.2,False,0.00968
-CVE-2026-2069,Core Banking Framework,8.7,False,0.03817
-CVE-2024-7966,Embedded IoT Gateway,9.8,False,0.00056
-CVE-2025-6301,Web Application Firewall,8.1,False,0.02483
-CVE-2022-5000,Web Application Firewall,6.0,False,0.04923
-CVE-2022-5611,Core Banking Framework,4.4,False,0.0302
-CVE-2026-7873,Identity Provider SaaS,8.2,False,0.00246
-CVE-2022-5000,Identity Provider SaaS,4.6,False,0.00755
-CVE-2022-2853,Web Application Firewall,7.7,False,0.00098
-CVE-2024-6191,Enterprise Router OS,4.5,False,0.35343
-CVE-2023-2986,Cloud Database Engine,9.9,False,0.04116
-CVE-2022-2959,Embedded IoT Gateway,4.6,False,0.00206
-CVE-2022-2542,Enterprise Router OS,4.3,False,0.04361
-CVE-2025-1004,Embedded IoT Gateway,8.8,False,0.00447
-CVE-2022-2636,Embedded IoT Gateway,7.6,False,0.00252
-CVE-2023-9308,Cloud Database Engine,6.6,False,0.03269
-CVE-2026-8041,Core Banking Framework,7.7,False,0.03734
-CVE-2026-5107,Core Banking Framework,8.0,False,0.0361
-CVE-2022-1190,Core Banking Framework,10.0,False,0.01038
-CVE-2025-2016,Core Banking Framework,4.4,True,0.47522
-CVE-2024-3427,Cloud Database Engine,8.5,False,0.01887
-CVE-2024-9838,Embedded IoT Gateway,4.2,False,0.02221
-CVE-2024-1395,Identity Provider SaaS,5.7,False,0.02356
-CVE-2026-6393,Enterprise Router OS,4.8,False,0.00939
-CVE-2024-3558,Web Application Firewall,7.1,False,0.59727
-CVE-2024-4152,Cloud Database Engine,9.1,True,0.70012
-CVE-2023-6986,Core Banking Framework,5.4,False,0.02238
-CVE-2022-2853,Cloud Database Engine,6.7,False,0.60562
-CVE-2023-7938,Identity Provider SaaS,9.7,False,0.01928
-CVE-2023-5736,Core Banking Framework,6.1,False,0.03542
-CVE-2023-6442,Web Application Firewall,5.2,False,0.00333
-CVE-2022-8114,Embedded IoT Gateway,4.3,False,0.00941
-CVE-2023-8721,Core Banking Framework,4.6,False,0.02017
-CVE-2024-9967,Identity Provider SaaS,6.9,False,0.32038
-CVE-2024-2122,Embedded IoT Gateway,8.0,False,0.75737
-CVE-2024-6578,Web Application Firewall,5.5,False,0.01903
-CVE-2022-3049,Cloud Database Engine,7.7,False,0.002
-CVE-2025-7190,Enterprise Router OS,5.3,False,0.03274
-CVE-2024-6249,Web Application Firewall,7.9,False,0.96448
-CVE-2025-7002,Enterprise Router OS,9.2,False,0.03705
-CVE-2026-4072,Identity Provider SaaS,9.2,False,0.03263
-CVE-2024-3427,Enterprise Router OS,6.2,False,0.01973
-CVE-2026-1417,Enterprise Router OS,6.7,True,0.6992
-CVE-2023-6534,Web Application Firewall,7.7,False,0.04324
-CVE-2026-8158,Core Banking Framework,6.0,False,0.02922
-CVE-2023-1539,Embedded IoT Gateway,7.6,False,0.03605
-CVE-2026-6393,Identity Provider SaaS,4.0,False,0.01255
-CVE-2026-8421,Identity Provider SaaS,4.4,False,0.00552
-CVE-2022-4104,Web Application Firewall,5.8,False,0.01591
-CVE-2023-8806,Cloud Database Engine,6.4,False,0.02636
-CVE-2026-2191,Embedded IoT Gateway,5.1,False,0.00579
-CVE-2023-4719,Embedded IoT Gateway,6.5,False,0.01899
-CVE-2023-8509,Cloud Database Engine,4.7,True,0.73383
-CVE-2025-4709,Web Application Firewall,7.6,False,0.00915
-CVE-2022-2648,Core Banking Framework,9.4,False,0.01315
-CVE-2024-4157,Cloud Database Engine,8.4,False,0.04057
-CVE-2023-6986,Cloud Database Engine,6.7,False,0.03698
-CVE-2026-5330,Identity Provider SaaS,7.6,False,0.02257
-CVE-2022-2365,Identity Provider SaaS,9.9,False,0.79255
-CVE-2026-3062,Core Banking Framework,4.5,False,0.01
-CVE-2026-9754,Enterprise Router OS,5.4,False,0.65296
-CVE-2025-7944,Embedded IoT Gateway,8.8,False,0.04406
-CVE-2023-7184,Identity Provider SaaS,7.2,False,0.03364
-CVE-2026-3738,Embedded IoT Gateway,8.0,False,0.02353
-CVE-2023-7938,Web Application Firewall,7.4,False,0.03466
-CVE-2024-3489,Cloud Database Engine,4.6,False,0.0177
-CVE-2026-9754,Embedded IoT Gateway,6.8,False,0.96243
-CVE-2022-8400,Core Banking Framework,8.4,False,0.03374
-CVE-2026-5887,Embedded IoT Gateway,8.3,True,0.50613
-CVE-2022-3049,Core Banking Framework,6.2,False,0.02791
-CVE-2022-8339,Web Application Firewall,7.4,False,0.02016
-CVE-2025-6625,Cloud Database Engine,7.8,False,0.03621
-CVE-2025-7668,Embedded IoT Gateway,8.9,False,0.40458
-CVE-2025-8390,Embedded IoT Gateway,7.4,False,0.02423
-CVE-2025-7190,Embedded IoT Gateway,7.6,False,0.04155
-CVE-2026-8041,Embedded IoT Gateway,4.5,False,0.70412
-CVE-2023-4843,Web Application Firewall,9.3,False,0.00052
-CVE-2026-1064,Web Application Firewall,7.6,False,0.02844
-CVE-2026-6541,Enterprise Router OS,4.3,False,0.77262
-CVE-2023-8554,Enterprise Router OS,4.9,False,0.0055
-CVE-2022-2853,Embedded IoT Gateway,7.7,False,0.01202
-CVE-2026-5107,Embedded IoT Gateway,7.9,False,0.03971
-CVE-2023-1512,Web Application Firewall,7.9,False,0.02434
-CVE-2025-1728,Core Banking Framework,8.6,True,0.58298
-CVE-2023-2066,Core Banking Framework,4.1,False,0.00729
-CVE-2026-2678,Core Banking Framework,4.1,False,0.04018
-CVE-2023-8509,Embedded IoT Gateway,6.2,False,0.02522
-CVE-2023-6305,Core Banking Framework,6.9,False,0.037
-CVE-2023-6988,Identity Provider SaaS,6.3,False,0.03936
-CVE-2023-9815,Enterprise Router OS,4.6,False,0.04054
-CVE-2023-4627,Identity Provider SaaS,7.0,False,0.01173
-CVE-2023-8509,Identity Provider SaaS,4.6,False,0.00287
-CVE-2022-6188,Enterprise Router OS,8.5,False,0.00572
-CVE-2024-2899,Core Banking Framework,7.1,False,0.04958
-CVE-2024-1851,Identity Provider SaaS,5.1,False,0.74901
-CVE-2025-7949,Cloud Database Engine,4.1,False,0.01512
-CVE-2023-6305,Enterprise Router OS,9.9,False,0.47368
-CVE-2024-2495,Enterprise Router OS,7.9,False,0.95857
-CVE-2024-1699,Embedded IoT Gateway,5.8,False,0.02933
-CVE-2026-6348,Embedded IoT Gateway,4.9,True,0.37535
-CVE-2026-5465,Enterprise Router OS,6.2,False,0.03084
-CVE-2023-7619,Embedded IoT Gateway,5.4,False,0.0444
-CVE-2025-5199,Web Application Firewall,9.2,False,0.01299
-CVE-2024-1699,Web Application Firewall,9.1,False,0.03298
-CVE-2026-8421,Web Application Firewall,8.5,False,0.03653
-CVE-2026-5330,Core Banking Framework,8.1,False,0.02468
-CVE-2026-6855,Embedded IoT Gateway,8.4,False,0.02566
-CVE-2024-1956,Core Banking Framework,5.0,False,0.46774
-CVE-2023-3539,Identity Provider SaaS,10.0,False,0.0401
-CVE-2025-9666,Enterprise Router OS,7.3,True,0.81747
-CVE-2024-6056,Embedded IoT Gateway,8.5,False,0.01871
-CVE-2024-8526,Identity Provider SaaS,9.1,False,0.00667
-CVE-2023-1262,Core Banking Framework,7.9,False,0.00732
-CVE-2026-8164,Core Banking Framework,4.0,False,0.41348
-CVE-2023-9308,Enterprise Router OS,6.3,False,0.02575
-CVE-2026-6734,Core Banking Framework,7.5,False,0.03037
-CVE-2024-8343,Web Application Firewall,8.8,False,0.02516
-CVE-2024-1851,Web Application Firewall,8.2,False,0.01089
-CVE-2023-8805,Identity Provider SaaS,6.6,False,0.02198
-CVE-2026-2060,Embedded IoT Gateway,4.4,False,0.03681
-CVE-2023-2679,Web Application Firewall,8.5,False,0.01055
-CVE-2024-1863,Cloud Database Engine,6.0,True,0.31645
-CVE-2022-2062,Web Application Firewall,5.6,False,0.04706
-CVE-2025-2016,Web Application Firewall,5.4,False,0.0243
-CVE-2022-6864,Core Banking Framework,8.2,False,0.91466
-CVE-2022-9352,Enterprise Router OS,4.0,True,0.45315
-CVE-2022-2959,Web Application Firewall,4.2,False,0.03946
-CVE-2025-7799,Cloud Database Engine,9.1,False,0.04273
-CVE-2023-5736,Embedded IoT Gateway,7.7,False,0.0161
-CVE-2026-1769,Web Application Firewall,9.4,True,0.75138
-CVE-2026-6393,Cloud Database Engine,4.9,False,0.01724
-CVE-2022-8560,Cloud Database Engine,8.3,False,0.76495
-CVE-2022-5737,Enterprise Router OS,7.3,False,0.02449
-CVE-2024-6578,Cloud Database Engine,8.0,False,0.88615
-CVE-2022-1098,Web Application Firewall,5.7,False,0.54206
-CVE-2022-5282,Identity Provider SaaS,8.7,False,0.00865
-CVE-2024-4157,Web Application Firewall,8.5,True,0.38585
-CVE-2022-4763,Web Application Firewall,5.0,False,0.02823
-CVE-2023-4627,Cloud Database Engine,7.3,False,0.53369
-CVE-2022-9006,Enterprise Router OS,6.3,False,0.02286
-CVE-2025-1004,Identity Provider SaaS,8.7,False,0.0264
-CVE-2023-7819,Embedded IoT Gateway,5.7,False,0.01019
-CVE-2026-3914,Cloud Database Engine,4.9,False,0.01618
-CVE-2024-7801,Identity Provider SaaS,5.7,False,0.43737
-CVE-2025-7949,Core Banking Framework,8.4,False,0.04003
-CVE-2022-3502,Identity Provider SaaS,9.3,False,0.04837
-CVE-2026-7019,Core Banking Framework,9.9,False,0.00871
-CVE-2025-7546,Cloud Database Engine,6.6,False,0.68063
-CVE-2026-8004,Enterprise Router OS,8.9,False,0.04869
-CVE-2023-2540,Embedded IoT Gateway,9.5,False,0.04941
-CVE-2023-6442,Cloud Database Engine,4.6,False,0.5366
-CVE-2024-8526,Enterprise Router OS,6.6,False,0.04041
-CVE-2025-4486,Identity Provider SaaS,7.8,False,0.01659
-CVE-2025-5946,Embedded IoT Gateway,8.1,False,0.04959
-CVE-2026-6745,Enterprise Router OS,5.8,False,0.04362
-CVE-2023-5859,Enterprise Router OS,8.7,False,0.04541
-CVE-2026-1659,Core Banking Framework,7.3,False,0.00598
-CVE-2023-8554,Web Application Firewall,9.5,False,0.00139
-CVE-2025-8390,Enterprise Router OS,5.8,False,0.0437
-CVE-2024-5499,Web Application Firewall,4.7,True,0.47905
-CVE-2023-2540,Enterprise Router OS,6.8,False,0.01521
-CVE-2023-9945,Enterprise Router OS,4.3,False,0.03356
-CVE-2023-8806,Embedded IoT Gateway,7.5,False,0.02631
-CVE-2026-5849,Core Banking Framework,7.6,False,0.91855
-CVE-2025-2016,Enterprise Router OS,4.4,False,0.77223
-CVE-2024-5413,Web Application Firewall,8.6,False,0.02245
-CVE-2023-6988,Core Banking Framework,7.8,False,0.01225
-CVE-2024-4152,Embedded IoT Gateway,6.3,False,0.04755
-CVE-2024-8343,Identity Provider SaaS,8.5,False,0.00401
-CVE-2024-9319,Cloud Database Engine,6.2,False,0.39522
-CVE-2025-4510,Core Banking Framework,6.9,False,0.01439
-CVE-2024-6249,Core Banking Framework,6.6,False,0.0027
-CVE-2022-3967,Enterprise Router OS,8.9,False,0.02681
-CVE-2023-3869,Web Application Firewall,5.0,False,0.04417
-CVE-2022-7616,Embedded IoT Gateway,8.0,False,0.04772
-CVE-2025-7949,Enterprise Router OS,7.8,True,0.47517
-CVE-2026-3738,Enterprise Router OS,7.6,False,0.56101
-CVE-2023-3869,Embedded IoT Gateway,6.2,False,0.03768
-CVE-2024-9808,Embedded IoT Gateway,4.5,False,0.03359
-CVE-2025-9680,Cloud Database Engine,6.2,False,0.73255
-CVE-2022-8400,Enterprise Router OS,7.7,False,0.00647
-CVE-2024-6191,Core Banking Framework,4.4,False,0.30796
-CVE-2025-9702,Identity Provider SaaS,6.7,False,0.04555
-CVE-2026-8208,Identity Provider SaaS,7.5,False,0.03543
-CVE-2022-5780,Cloud Database Engine,5.0,False,0.90527
-CVE-2022-8404,Embedded IoT Gateway,6.0,False,0.00083
-CVE-2022-3961,Identity Provider SaaS,5.9,False,0.01855
-CVE-2025-5548,Embedded IoT Gateway,7.4,False,0.04862
-CVE-2025-7668,Identity Provider SaaS,4.8,False,0.04632
-CVE-2024-2122,Identity Provider SaaS,4.1,False,0.01482
-CVE-2025-5199,Core Banking Framework,6.2,False,0.02248
-CVE-2024-9905,Embedded IoT Gateway,7.3,False,0.008
-CVE-2022-7616,Web Application Firewall,7.2,False,0.02731
-CVE-2026-3062,Cloud Database Engine,5.6,False,0.53286
-CVE-2026-6393,Embedded IoT Gateway,9.0,False,0.02936
-CVE-2022-1098,Identity Provider SaaS,4.9,False,0.03923
-CVE-2022-5282,Embedded IoT Gateway,5.8,False,0.02334
-CVE-2025-7949,Embedded IoT Gateway,9.1,False,0.00705
-CVE-2026-2707,Core Banking Framework,7.6,False,0.00238
-CVE-2022-3027,Cloud Database Engine,9.7,False,0.04906
-CVE-2022-3143,Embedded IoT Gateway,9.2,False,0.01465
-CVE-2024-6732,Identity Provider SaaS,7.1,False,0.04335
-CVE-2023-2066,Cloud Database Engine,6.7,False,0.04043
-CVE-2026-6801,Enterprise Router OS,4.4,True,0.73533
-CVE-2024-9808,Identity Provider SaaS,5.9,False,0.96064
-CVE-2022-2931,Cloud Database Engine,6.9,False,0.03478
-CVE-2023-4719,Web Application Firewall,7.9,False,0.03679
-CVE-2026-5910,Enterprise Router OS,8.8,False,0.04974
-CVE-2025-4073,Identity Provider SaaS,8.4,False,0.00757
-CVE-2023-1512,Enterprise Router OS,8.3,False,0.00171
-CVE-2022-6463,Core Banking Framework,4.6,False,0.00609
-CVE-2024-8343,Cloud Database Engine,5.5,False,0.78287
-CVE-2025-2693,Embedded IoT Gateway,9.2,False,0.00804
-CVE-2023-8806,Core Banking Framework,4.2,False,0.0381
-CVE-2023-4843,Enterprise Router OS,8.3,False,0.04116
-CVE-2026-3731,Web Application Firewall,7.4,False,0.03617
-CVE-2025-2353,Enterprise Router OS,4.4,False,0.46784
-CVE-2023-8455,Embedded IoT Gateway,4.6,False,0.04221
-CVE-2026-1659,Cloud Database Engine,9.4,False,0.01918
-CVE-2025-9002,Cloud Database Engine,4.8,False,0.00955
-CVE-2023-8513,Embedded IoT Gateway,4.8,False,0.01381
-CVE-2024-1851,Embedded IoT Gateway,10.0,False,0.01956
-CVE-2025-6625,Identity Provider SaaS,8.4,False,0.03782
-CVE-2026-6745,Core Banking Framework,4.3,False,0.01375
-CVE-2026-3731,Cloud Database Engine,4.1,False,0.00146
-CVE-2026-5893,Identity Provider SaaS,7.0,False,0.02996
-CVE-2023-8513,Core Banking Framework,6.8,False,0.03404
-CVE-2024-3255,Embedded IoT Gateway,5.6,False,0.88285
-CVE-2024-7966,Cloud Database Engine,8.6,False,0.4806
-CVE-2026-1417,Core Banking Framework,6.1,False,0.03227
-CVE-2023-7396,Identity Provider SaaS,8.0,False,0.03394
-CVE-2023-8721,Embedded IoT Gateway,9.4,False,0.03036
-CVE-2023-3849,Embedded IoT Gateway,6.8,True,0.9513
-CVE-2023-7619,Enterprise Router OS,5.2,False,0.04486
-CVE-2026-8041,Cloud Database Engine,5.9,False,0.0266
-CVE-2024-4157,Embedded IoT Gateway,7.9,False,0.0172
-CVE-2024-6578,Embedded IoT Gateway,7.8,False,0.9514
-CVE-2023-7303,Web Application Firewall,7.3,False,0.41271
-CVE-2025-4510,Embedded IoT Gateway,9.4,False,0.97659
-CVE-2025-6588,Identity Provider SaaS,9.9,False,0.02213
-CVE-2024-4556,Web Application Firewall,7.7,False,0.03973
-CVE-2025-1717,Core Banking Framework,9.1,False,0.01199
-CVE-2024-1225,Core Banking Framework,4.1,False,0.01182
-CVE-2024-4769,Core Banking Framework,5.3,False,0.03658
-CVE-2026-2707,Web Application Firewall,6.6,True,0.62701
-CVE-2024-8683,Core Banking Framework,4.7,False,0.04602
-CVE-2026-6801,Identity Provider SaaS,9.7,False,0.03948
-CVE-2025-5548,Core Banking Framework,7.4,False,0.0124
-CVE-2024-5488,Cloud Database Engine,9.5,False,0.01143
-CVE-2025-9680,Core Banking Framework,4.2,False,0.01448
-CVE-2022-6029,Identity Provider SaaS,5.7,False,0.04735
-CVE-2025-9571,Core Banking Framework,6.5,False,0.02513
-CVE-2022-2931,Embedded IoT Gateway,8.2,False,0.008
-CVE-2026-5893,Web Application Firewall,4.1,False,0.00307
-CVE-2025-4073,Web Application Firewall,8.9,False,0.00671
-CVE-2024-6618,Web Application Firewall,6.4,False,0.02735
-CVE-2022-2062,Enterprise Router OS,5.6,False,0.0184
-CVE-2022-1391,Embedded IoT Gateway,7.8,False,0.03915
-CVE-2022-7585,Cloud Database Engine,8.8,False,0.01711
-CVE-2024-5171,Identity Provider SaaS,4.7,False,0.02205
-CVE-2023-8805,Enterprise Router OS,5.9,False,0.01967
-CVE-2026-1064,Embedded IoT Gateway,4.7,False,0.04224
-CVE-2025-1717,Embedded IoT Gateway,7.4,False,0.02695
-CVE-2025-3368,Identity Provider SaaS,6.6,False,0.00637
-CVE-2022-9787,Web Application Firewall,7.3,False,0.8884
-CVE-2026-1606,Embedded IoT Gateway,7.8,False,0.02533
-CVE-2023-7303,Embedded IoT Gateway,8.0,True,0.67322
-CVE-2022-3961,Core Banking Framework,5.8,False,0.01704
-CVE-2026-8385,Embedded IoT Gateway,6.4,True,0.83296
-CVE-2023-7184,Enterprise Router OS,8.1,False,0.55427
-CVE-2025-7190,Core Banking Framework,8.7,False,0.83108
-CVE-2024-1956,Web Application Firewall,7.6,False,0.04709
-CVE-2026-8385,Cloud Database Engine,6.7,False,0.67249
-CVE-2025-7002,Core Banking Framework,5.1,False,0.02623
-CVE-2025-6450,Identity Provider SaaS,7.6,False,0.03172
-CVE-2024-1504,Cloud Database Engine,8.1,False,0.00902
-CVE-2026-8164,Embedded IoT Gateway,5.8,False,0.03137
-CVE-2022-4376,Web Application Firewall,9.8,False,0.03548
-CVE-2022-1391,Web Application Firewall,5.9,False,0.04337
-CVE-2026-2678,Identity Provider SaaS,4.6,False,0.03696
-CVE-2023-4627,Enterprise Router OS,4.1,False,0.02279
-CVE-2026-5893,Embedded IoT Gateway,8.4,False,0.01113
-CVE-2023-3869,Enterprise Router OS,6.6,False,0.03631
-CVE-2025-3368,Enterprise Router OS,8.9,True,0.91983
-CVE-2026-7019,Enterprise Router OS,5.3,False,0.0036
-CVE-2026-5893,Cloud Database Engine,8.8,False,0.02744
-CVE-2022-5777,Identity Provider SaaS,7.7,False,0.02631
-CVE-2024-5488,Identity Provider SaaS,7.8,False,0.02698
-CVE-2024-6177,Enterprise Router OS,5.2,False,0.02374
-CVE-2022-2648,Enterprise Router OS,9.5,False,0.03943
-CVE-2025-3693,Enterprise Router OS,5.9,False,0.02701
-CVE-2025-4709,Core Banking Framework,6.1,False,0.01574
-CVE-2026-7873,Core Banking Framework,6.0,False,0.04709
-CVE-2023-1197,Enterprise Router OS,4.6,False,0.02541
-CVE-2022-1190,Enterprise Router OS,9.2,False,0.04301
-CVE-2022-5000,Enterprise Router OS,5.0,False,0.03485
-CVE-2025-7287,Core Banking Framework,5.0,True,0.78874
-CVE-2025-6073,Cloud Database Engine,9.3,False,0.02932
-CVE-2024-8343,Enterprise Router OS,5.3,False,0.01256
-CVE-2023-3869,Identity Provider SaaS,6.0,False,0.04932
-CVE-2024-1225,Enterprise Router OS,6.6,False,0.03526
-CVE-2022-1391,Enterprise Router OS,7.0,False,0.04903
-CVE-2022-8404,Enterprise Router OS,7.7,False,0.0207
-CVE-2025-2585,Core Banking Framework,5.3,False,0.0367
-CVE-2022-2306,Enterprise Router OS,6.8,False,0.00681
-CVE-2022-1391,Cloud Database Engine,4.4,False,0.02732
-CVE-2024-3703,Embedded IoT Gateway,7.3,False,0.02591
-CVE-2024-9838,Core Banking Framework,7.4,False,0.01785
-CVE-2025-9571,Identity Provider SaaS,8.2,False,0.00274
-CVE-2023-5736,Identity Provider SaaS,6.3,False,0.01898
-CVE-2024-2409,Embedded IoT Gateway,4.6,False,0.69509
-CVE-2022-3141,Cloud Database Engine,7.3,False,0.03403
-CVE-2022-5611,Identity Provider SaaS,8.0,False,0.00891
-CVE-2025-4709,Cloud Database Engine,9.3,False,0.00825
-CVE-2025-6919,Core Banking Framework,8.3,False,0.01603
-CVE-2023-7905,Enterprise Router OS,7.5,False,0.02281
-CVE-2023-9945,Core Banking Framework,5.9,False,0.03488
-CVE-2022-2324,Identity Provider SaaS,7.6,False,0.04084
-CVE-2026-4072,Web Application Firewall,8.7,False,0.00796
-CVE-2023-8330,Core Banking Framework,5.6,True,0.89785
-CVE-2026-6801,Core Banking Framework,7.8,False,0.02173
-CVE-2023-9932,Core Banking Framework,6.6,False,0.80864
-CVE-2025-7799,Core Banking Framework,4.4,False,0.01667
-CVE-2026-5175,Identity Provider SaaS,8.8,False,0.01245
-CVE-2022-8339,Core Banking Framework,5.9,False,0.04253
-CVE-2022-9053,Web Application Firewall,4.1,False,0.03823
-CVE-2026-5465,Identity Provider SaaS,4.0,False,0.02042
-CVE-2024-9319,Embedded IoT Gateway,7.4,False,0.01889
-CVE-2024-4152,Core Banking Framework,7.8,False,0.02496
-CVE-2022-3502,Enterprise Router OS,6.8,False,0.04749
-CVE-2024-5496,Enterprise Router OS,7.9,False,0.67719
-CVE-2026-8574,Embedded IoT Gateway,6.5,False,0.69421
-CVE-2023-8721,Identity Provider SaaS,6.7,False,0.04556
-CVE-2024-3703,Web Application Firewall,7.5,False,0.00307
-CVE-2025-3205,Web Application Firewall,8.0,False,0.04436
-CVE-2023-6854,Core Banking Framework,8.8,False,0.43638
-CVE-2022-8114,Cloud Database Engine,8.1,False,0.04707
-CVE-2023-9945,Web Application Firewall,6.0,True,0.96323
-CVE-2025-6301,Cloud Database Engine,9.6,False,0.00402
-CVE-2022-4104,Core Banking Framework,7.2,False,0.00616
-CVE-2023-5859,Embedded IoT Gateway,6.1,False,0.44314
-CVE-2022-5737,Embedded IoT Gateway,4.9,False,0.00817
-CVE-2023-7619,Cloud Database Engine,9.0,False,0.00822
-CVE-2023-8805,Web Application Firewall,8.7,False,0.00066
-CVE-2026-2069,Enterprise Router OS,6.8,False,0.00332
-CVE-2025-2693,Cloud Database Engine,6.8,False,0.03353
-CVE-2022-2959,Core Banking Framework,9.9,False,0.01016
-CVE-2025-2291,Core Banking Framework,8.4,False,0.04199
-CVE-2023-6486,Identity Provider SaaS,8.8,False,0.0211
-CVE-2026-1663,Enterprise Router OS,7.1,False,0.04853
-CVE-2023-6592,Enterprise Router OS,8.4,False,0.8812
-CVE-2026-3931,Core Banking Framework,7.5,False,0.03939
-CVE-2026-8266,Embedded IoT Gateway,5.5,False,0.89205
-CVE-2022-3049,Enterprise Router OS,7.8,False,0.02319
-CVE-2023-1262,Identity Provider SaaS,7.5,True,0.82531
-CVE-2026-5107,Web Application Firewall,9.0,False,0.43902
-CVE-2024-9110,Enterprise Router OS,7.1,False,0.02574
-CVE-2026-3731,Embedded IoT Gateway,5.7,False,0.04982
-CVE-2026-4440,Web Application Firewall,9.5,False,0.03493
-CVE-2023-5736,Cloud Database Engine,6.4,False,0.82548
-CVE-2024-1699,Identity Provider SaaS,5.8,True,0.73322
-CVE-2026-8400,Embedded IoT Gateway,6.1,False,0.02305
-CVE-2024-5488,Enterprise Router OS,8.2,False,0.01594
-CVE-2026-3914,Identity Provider SaaS,9.1,False,0.02728
-CVE-2025-7668,Cloud Database Engine,4.0,True,0.91524
-CVE-2025-7420,Identity Provider SaaS,9.4,False,0.00325
-CVE-2022-8996,Embedded IoT Gateway,5.9,False,0.00994
-CVE-2023-8806,Identity Provider SaaS,6.1,False,0.00643
-CVE-2025-2353,Core Banking Framework,7.0,False,0.02198
-CVE-2025-4709,Enterprise Router OS,6.3,False,0.44818
-CVE-2026-2707,Cloud Database Engine,4.6,False,0.03513
-CVE-2025-9571,Cloud Database Engine,7.4,False,0.47268
-CVE-2023-8805,Core Banking Framework,4.6,True,0.54585
-CVE-2023-9308,Identity Provider SaaS,8.0,False,0.41732
-CVE-2025-5380,Cloud Database Engine,8.8,True,0.83179
-CVE-2023-7619,Core Banking Framework,7.7,False,0.01828
-CVE-2022-5611,Web Application Firewall,6.9,False,0.04038
-CVE-2024-2899,Web Application Firewall,5.3,False,0.02437
-CVE-2022-2542,Identity Provider SaaS,5.3,False,0.04127
-CVE-2026-1133,Core Banking Framework,6.8,False,0.00637
-CVE-2023-2679,Identity Provider SaaS,7.9,False,0.03588
-CVE-2025-9666,Embedded IoT Gateway,4.7,False,0.03326
-CVE-2026-1659,Identity Provider SaaS,6.4,False,0.03079
-CVE-2026-2069,Identity Provider SaaS,9.8,False,0.02682
-CVE-2024-3489,Embedded IoT Gateway,9.4,False,0.02615
-CVE-2026-4343,Identity Provider SaaS,5.4,False,0.04793
-CVE-2022-6463,Cloud Database Engine,9.3,False,0.03195
-CVE-2026-5910,Cloud Database Engine,5.9,True,0.83106
-CVE-2025-2484,Cloud Database Engine,8.9,False,0.02724
-CVE-2026-2060,Cloud Database Engine,7.1,False,0.0166
-CVE-2022-2959,Identity Provider SaaS,8.3,False,0.01208
-CVE-2025-8192,Cloud Database Engine,4.2,False,0.03456
-CVE-2023-9815,Identity Provider SaaS,9.6,False,0.01152
-CVE-2026-8041,Web Application Firewall,5.0,False,0.4598
-CVE-2022-1698,Core Banking Framework,9.7,False,0.01435
-CVE-2026-5330,Embedded IoT Gateway,4.2,False,0.02129
-CVE-2024-1395,Cloud Database Engine,9.1,False,0.03919
-CVE-2022-6917,Cloud Database Engine,7.5,False,0.02744
-CVE-2026-1133,Web Application Firewall,5.2,False,0.00859
-CVE-2025-4141,Cloud Database Engine,8.0,False,0.03651
-CVE-2026-1412,Web Application Firewall,7.3,False,0.01517
-CVE-2026-7316,Embedded IoT Gateway,8.4,False,0.00672
-CVE-2026-2060,Core Banking Framework,9.0,False,0.04024
-CVE-2023-7184,Cloud Database Engine,4.3,False,0.00456
-CVE-2023-1539,Cloud Database Engine,4.2,False,0.00631
-CVE-2024-2409,Identity Provider SaaS,7.5,False,0.02365
-CVE-2023-9932,Embedded IoT Gateway,6.7,False,0.02529
-CVE-2025-3747,Web Application Firewall,4.1,False,0.00689
-CVE-2023-1466,Cloud Database Engine,7.1,False,0.02487
+cve_id,published_date,description,cvss_base_score,vendor,product_name,version_start,version_end,version_note,cisa_kev,first_epss,reference_url,source_snapshot_date
+CVE-2025-5380,2025-02-02,Pre-authentication buffer overflow in Core Banking Framework network listener leads to remote code execution,9.8,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.02704,https://nvd.nist.gov/vuln/detail/CVE-2025-5380,2025-01-15
+CVE-2025-7833,2025-03-03,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,8.1,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.04122,https://nvd.nist.gov/vuln/detail/CVE-2025-7833,2025-01-15
+CVE-2025-2291,2025-04-04,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.4,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.04667,https://nvd.nist.gov/vuln/detail/CVE-2025-2291,2025-01-15
+CVE-2026-1698,2026-05-05,Improper certificate validation in Identity Provider SaaS TLS transport handler allows man-in-the-middle data interception,4.3,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,True,0.556,https://nvd.nist.gov/vuln/detail/CVE-2026-1698,2025-01-15
+CVE-2026-2678,2026-06-06,Pre-authentication buffer overflow in Cloud Database Engine network listener leads to remote code execution,9.9,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.01935,https://nvd.nist.gov/vuln/detail/CVE-2026-2678,2025-01-15
+CVE-2026-1133,2026-07-07,Remote code execution in Enterprise Router OS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.0,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.01403,https://nvd.nist.gov/vuln/detail/CVE-2026-1133,2025-01-15
+CVE-2026-9322,2026-08-08,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.9,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.02799,https://nvd.nist.gov/vuln/detail/CVE-2026-9322,2025-01-15
+CVE-2026-3731,2026-09-09,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,8.5,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.01065,https://nvd.nist.gov/vuln/detail/CVE-2026-3731,2025-01-15
+CVE-2025-1860,2025-10-10,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,5.6,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.03797,https://nvd.nist.gov/vuln/detail/CVE-2025-1860,2025-01-15
+CVE-2023-1995,2023-11-11,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,5.6,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,True,0.63875,https://nvd.nist.gov/vuln/detail/CVE-2023-1995,2025-01-15
+CVE-2022-8400,2022-12-12,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,7.1,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.02827,https://nvd.nist.gov/vuln/detail/CVE-2022-8400,2025-01-15
+CVE-2023-9945,2023-01-13,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,6.4,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.81349,https://nvd.nist.gov/vuln/detail/CVE-2023-9945,2025-01-15
+CVE-2024-5636,2024-02-14,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.3,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.5384,https://nvd.nist.gov/vuln/detail/CVE-2024-5636,2025-01-15
+CVE-2024-7287,2024-03-15,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.4,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.01774,https://nvd.nist.gov/vuln/detail/CVE-2024-7287,2025-01-15
+CVE-2025-6625,2025-04-16,Authentication bypass in Enterprise Router OS session handling allows unauthenticated attacker to bypass administrative controls,8.7,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.04319,https://nvd.nist.gov/vuln/detail/CVE-2025-6625,2025-01-15
+CVE-2024-5496,2024-05-17,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.9,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.01328,https://nvd.nist.gov/vuln/detail/CVE-2024-5496,2025-01-15
+CVE-2025-3693,2025-06-18,SQL injection flaw in Cloud Database Engine backend parser allows unauthorized read and write access to sensitive database tables,7.7,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.02919,https://nvd.nist.gov/vuln/detail/CVE-2025-3693,2025-01-15
+CVE-2023-1262,2023-07-19,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,6.8,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.03503,https://nvd.nist.gov/vuln/detail/CVE-2023-1262,2025-01-15
+CVE-2025-2693,2025-08-20,Pre-authentication buffer overflow in Enterprise Router OS network listener leads to remote code execution,9.4,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.00903,https://nvd.nist.gov/vuln/detail/CVE-2025-2693,2025-01-15
+CVE-2025-5199,2025-09-21,Improper certificate validation in Identity Provider SaaS TLS transport handler allows man-in-the-middle data interception,4.2,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.00926,https://nvd.nist.gov/vuln/detail/CVE-2025-5199,2025-01-15
+CVE-2025-1860,2025-10-22,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,6.8,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.02542,https://nvd.nist.gov/vuln/detail/CVE-2025-1860,2025-01-15
+CVE-2022-2306,2022-11-23,Privilege escalation in Cloud Database Engine daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.8,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.89403,https://nvd.nist.gov/vuln/detail/CVE-2022-2306,2025-01-15
+CVE-2022-1391,2022-12-24,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.0,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.70615,https://nvd.nist.gov/vuln/detail/CVE-2022-1391,2025-01-15
+CVE-2026-8027,2026-01-25,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,5.4,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.03617,https://nvd.nist.gov/vuln/detail/CVE-2026-8027,2025-01-15
+CVE-2023-2816,2023-02-26,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.9,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.0423,https://nvd.nist.gov/vuln/detail/CVE-2023-2816,2025-01-15
+CVE-2022-6917,2022-03-27,Improper certificate validation in Embedded IoT Gateway TLS transport handler allows man-in-the-middle data interception,4.6,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.0125,https://nvd.nist.gov/vuln/detail/CVE-2022-6917,2025-01-15
+CVE-2024-3255,2024-04-28,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.1,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.00492,https://nvd.nist.gov/vuln/detail/CVE-2024-3255,2025-01-15
+CVE-2022-3961,2022-05-01,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,5.4,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.01808,https://nvd.nist.gov/vuln/detail/CVE-2022-3961,2025-01-15
+CVE-2022-3967,2022-06-02,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,6.9,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.02811,https://nvd.nist.gov/vuln/detail/CVE-2022-3967,2025-01-15
+CVE-2022-3143,2022-07-03,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,6.3,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.03057,https://nvd.nist.gov/vuln/detail/CVE-2022-3143,2025-01-15
+CVE-2025-1728,2025-08-04,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.4,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.01267,https://nvd.nist.gov/vuln/detail/CVE-2025-1728,2025-01-15
+CVE-2023-1466,2023-09-05,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.1,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.04489,https://nvd.nist.gov/vuln/detail/CVE-2023-1466,2025-01-15
+CVE-2025-1717,2025-10-06,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,7.1,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.00605,https://nvd.nist.gov/vuln/detail/CVE-2025-1717,2025-01-15
+CVE-2025-5380,2025-11-07,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.00896,https://nvd.nist.gov/vuln/detail/CVE-2025-5380,2025-01-15
+CVE-2022-9755,2022-12-08,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,8.3,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.04201,https://nvd.nist.gov/vuln/detail/CVE-2022-9755,2025-01-15
+CVE-2024-5496,2024-01-09,Remote code execution in Web Application Firewall allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.8,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.03694,https://nvd.nist.gov/vuln/detail/CVE-2024-5496,2025-01-15
+CVE-2022-8996,2022-02-10,Privilege escalation in Enterprise Router OS daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.7,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.00814,https://nvd.nist.gov/vuln/detail/CVE-2022-8996,2025-01-15
+CVE-2024-7801,2024-03-11,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,6.2,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.02767,https://nvd.nist.gov/vuln/detail/CVE-2024-7801,2025-01-15
+CVE-2025-9666,2025-04-12,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.5,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.37935,https://nvd.nist.gov/vuln/detail/CVE-2025-9666,2025-01-15
+CVE-2026-5887,2026-05-13,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.1,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.04827,https://nvd.nist.gov/vuln/detail/CVE-2026-5887,2025-01-15
+CVE-2024-1225,2024-06-14,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,5.1,CloudData,Cloud Database Engine,5.2.0,5.5.0,,True,0.80396,https://nvd.nist.gov/vuln/detail/CVE-2024-1225,2025-01-15
+CVE-2025-2484,2025-07-15,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.8,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.0086,https://nvd.nist.gov/vuln/detail/CVE-2025-2484,2025-01-15
+CVE-2024-3427,2024-08-16,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.9,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.01826,https://nvd.nist.gov/vuln/detail/CVE-2024-3427,2025-01-15
+CVE-2026-4440,2026-09-17,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.4,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.01916,https://nvd.nist.gov/vuln/detail/CVE-2026-4440,2025-01-15
+CVE-2025-5869,2025-10-18,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.8,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.01199,https://nvd.nist.gov/vuln/detail/CVE-2025-5869,2025-01-15
+CVE-2024-9808,2024-11-19,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,7.3,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.00629,https://nvd.nist.gov/vuln/detail/CVE-2024-9808,2025-01-15
+CVE-2022-5555,2022-12-20,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,7.8,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.83994,https://nvd.nist.gov/vuln/detail/CVE-2022-5555,2025-01-15
+CVE-2023-8455,2023-01-21,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,7.2,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.00801,https://nvd.nist.gov/vuln/detail/CVE-2023-8455,2025-01-15
+CVE-2023-1197,2023-02-22,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,5.5,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.68752,https://nvd.nist.gov/vuln/detail/CVE-2023-1197,2025-01-15
+CVE-2025-7420,2025-03-23,Remote code execution in Core Banking Framework allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.3,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.00598,https://nvd.nist.gov/vuln/detail/CVE-2025-7420,2025-01-15
+CVE-2026-1412,2026-04-24,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.8,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.00792,https://nvd.nist.gov/vuln/detail/CVE-2026-1412,2025-01-15
+CVE-2024-6618,2024-05-25,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.3,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.03485,https://nvd.nist.gov/vuln/detail/CVE-2024-6618,2025-01-15
+CVE-2024-3703,2024-06-26,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,5.5,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.04547,https://nvd.nist.gov/vuln/detail/CVE-2024-3703,2025-01-15
+CVE-2026-5887,2026-07-27,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,6.4,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.00809,https://nvd.nist.gov/vuln/detail/CVE-2026-5887,2025-01-15
+CVE-2024-8683,2024-08-28,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.6,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.02985,https://nvd.nist.gov/vuln/detail/CVE-2024-8683,2025-01-15
+CVE-2025-7278,2025-09-01,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.6,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.00658,https://nvd.nist.gov/vuln/detail/CVE-2025-7278,2025-01-15
+CVE-2025-8098,2025-10-02,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.0,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.01694,https://nvd.nist.gov/vuln/detail/CVE-2025-8098,2025-01-15
+CVE-2024-9110,2024-11-03,Privilege escalation in Identity Provider SaaS daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.5,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.52793,https://nvd.nist.gov/vuln/detail/CVE-2024-9110,2025-01-15
+CVE-2026-8158,2026-12-04,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.0,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.04603,https://nvd.nist.gov/vuln/detail/CVE-2026-8158,2025-01-15
+CVE-2023-7303,2023-01-05,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.4,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.0229,https://nvd.nist.gov/vuln/detail/CVE-2023-7303,2025-01-15
+CVE-2025-5869,2025-02-06,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,5.1,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.04578,https://nvd.nist.gov/vuln/detail/CVE-2025-5869,2025-01-15
+CVE-2025-4051,2025-03-07,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,7.5,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.75121,https://nvd.nist.gov/vuln/detail/CVE-2025-4051,2025-01-15
+CVE-2022-2636,2022-04-08,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.9,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.97787,https://nvd.nist.gov/vuln/detail/CVE-2022-2636,2025-01-15
+CVE-2024-6892,2024-05-09,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.9,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.04009,https://nvd.nist.gov/vuln/detail/CVE-2024-6892,2025-01-15
+CVE-2026-7873,2026-06-10,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.1,SecNet,Web Application Firewall,3.1.0,3.5.0,,True,0.62101,https://nvd.nist.gov/vuln/detail/CVE-2026-7873,2025-01-15
+CVE-2024-4556,2024-07-11,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,5.8,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.02696,https://nvd.nist.gov/vuln/detail/CVE-2024-4556,2025-01-15
+CVE-2023-9815,2023-08-12,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,7.0,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.52737,https://nvd.nist.gov/vuln/detail/CVE-2023-9815,2025-01-15
+CVE-2025-1854,2025-09-13,Remote code execution in Embedded IoT Gateway allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.0,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.02781,https://nvd.nist.gov/vuln/detail/CVE-2025-1854,2025-01-15
+CVE-2026-8860,2026-10-14,Authentication bypass in Core Banking Framework session handling allows unauthenticated attacker to bypass administrative controls,7.6,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.04443,https://nvd.nist.gov/vuln/detail/CVE-2026-8860,2025-01-15
+CVE-2023-6791,2023-11-15,Privilege escalation in Cloud Database Engine daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.8,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.04044,https://nvd.nist.gov/vuln/detail/CVE-2023-6791,2025-01-15
+CVE-2023-9716,2023-12-16,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.2,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.00114,https://nvd.nist.gov/vuln/detail/CVE-2023-9716,2025-01-15
+CVE-2026-2191,2026-01-17,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,5.2,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,True,0.42338,https://nvd.nist.gov/vuln/detail/CVE-2026-2191,2025-01-15
+CVE-2026-7863,2026-02-18,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,6.5,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.01742,https://nvd.nist.gov/vuln/detail/CVE-2026-7863,2025-01-15
+CVE-2024-2122,2024-03-19,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.2,CloudData,Cloud Database Engine,5.1.0,5.1.5,,True,0.86485,https://nvd.nist.gov/vuln/detail/CVE-2024-2122,2025-01-15
+CVE-2022-8114,2022-04-20,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,8.6,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.01137,https://nvd.nist.gov/vuln/detail/CVE-2022-8114,2025-01-15
+CVE-2024-1504,2024-05-21,Remote code execution in Enterprise Router OS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.04009,https://nvd.nist.gov/vuln/detail/CVE-2024-1504,2025-01-15
+CVE-2022-5611,2022-06-22,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.1,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.03186,https://nvd.nist.gov/vuln/detail/CVE-2022-5611,2025-01-15
+CVE-2022-3141,2022-07-23,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,7.9,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.91239,https://nvd.nist.gov/vuln/detail/CVE-2022-3141,2025-01-15
+CVE-2024-7287,2024-08-24,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.1,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.69203,https://nvd.nist.gov/vuln/detail/CVE-2024-7287,2025-01-15
+CVE-2023-1995,2023-09-25,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,6.4,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.00578,https://nvd.nist.gov/vuln/detail/CVE-2023-1995,2025-01-15
+CVE-2025-1775,2025-10-26,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,5.6,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.03184,https://nvd.nist.gov/vuln/detail/CVE-2025-1775,2025-01-15
+CVE-2023-8509,2023-11-27,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.5,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.00282,https://nvd.nist.gov/vuln/detail/CVE-2023-8509,2025-01-15
+CVE-2022-8404,2022-12-28,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.5,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.86921,https://nvd.nist.gov/vuln/detail/CVE-2022-8404,2025-01-15
+CVE-2022-5555,2022-01-01,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,8.3,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.02406,https://nvd.nist.gov/vuln/detail/CVE-2022-5555,2025-01-15
+CVE-2023-1262,2023-02-02,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.8,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.02722,https://nvd.nist.gov/vuln/detail/CVE-2023-1262,2025-01-15
+CVE-2026-6745,2026-03-03,Improper certificate validation in Embedded IoT Gateway TLS transport handler allows man-in-the-middle data interception,4.3,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.01705,https://nvd.nist.gov/vuln/detail/CVE-2026-6745,2025-01-15
+CVE-2023-2816,2023-04-04,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.6,CloudData,Cloud Database Engine,4.0.0,5.0.0,,True,0.79517,https://nvd.nist.gov/vuln/detail/CVE-2023-2816,2025-01-15
+CVE-2025-9002,2025-05-05,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.1,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.04105,https://nvd.nist.gov/vuln/detail/CVE-2025-9002,2025-01-15
+CVE-2025-1728,2025-06-06,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,8.2,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.01837,https://nvd.nist.gov/vuln/detail/CVE-2025-1728,2025-01-15
+CVE-2022-9006,2022-07-07,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.5,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.02258,https://nvd.nist.gov/vuln/detail/CVE-2022-9006,2025-01-15
+CVE-2023-7396,2023-08-08,Pre-authentication buffer overflow in Web Application Firewall network listener leads to remote code execution,9.7,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.03807,https://nvd.nist.gov/vuln/detail/CVE-2023-7396,2025-01-15
+CVE-2023-2679,2023-09-09,Remote code execution in Enterprise Router OS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.4,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.00305,https://nvd.nist.gov/vuln/detail/CVE-2023-2679,2025-01-15
+CVE-2025-7235,2025-10-10,Authentication bypass in Cloud Database Engine session handling allows unauthenticated attacker to bypass administrative controls,7.5,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.02392,https://nvd.nist.gov/vuln/detail/CVE-2025-7235,2025-01-15
+CVE-2025-4141,2025-11-11,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.4,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.5868,https://nvd.nist.gov/vuln/detail/CVE-2025-4141,2025-01-15
+CVE-2025-2291,2025-12-12,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.3,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.03241,https://nvd.nist.gov/vuln/detail/CVE-2025-2291,2025-01-15
+CVE-2024-3558,2024-01-13,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,7.4,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.02675,https://nvd.nist.gov/vuln/detail/CVE-2024-3558,2025-01-15
+CVE-2026-5465,2026-02-14,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.03325,https://nvd.nist.gov/vuln/detail/CVE-2026-5465,2025-01-15
+CVE-2023-7303,2023-03-15,Remote code execution in Enterprise Router OS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.3,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.00171,https://nvd.nist.gov/vuln/detail/CVE-2023-7303,2025-01-15
+CVE-2025-6919,2025-04-16,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.1,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.04698,https://nvd.nist.gov/vuln/detail/CVE-2025-6919,2025-01-15
+CVE-2026-6745,2026-05-17,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,10.0,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.0204,https://nvd.nist.gov/vuln/detail/CVE-2026-6745,2025-01-15
+CVE-2024-5171,2024-06-18,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,7.8,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.03853,https://nvd.nist.gov/vuln/detail/CVE-2024-5171,2025-01-15
+CVE-2026-2678,2026-07-19,Improper certificate validation in Web Application Firewall TLS transport handler allows man-in-the-middle data interception,4.0,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.04271,https://nvd.nist.gov/vuln/detail/CVE-2026-2678,2025-01-15
+CVE-2026-2060,2026-08-20,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.5,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.00273,https://nvd.nist.gov/vuln/detail/CVE-2026-2060,2025-01-15
+CVE-2022-8996,2022-09-21,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.7,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.58395,https://nvd.nist.gov/vuln/detail/CVE-2022-8996,2025-01-15
+CVE-2022-5555,2022-10-22,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,7.7,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.01197,https://nvd.nist.gov/vuln/detail/CVE-2022-5555,2025-01-15
+CVE-2026-1606,2026-11-23,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.9,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.01192,https://nvd.nist.gov/vuln/detail/CVE-2026-1606,2025-01-15
+CVE-2025-1825,2025-12-24,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,5.3,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.01783,https://nvd.nist.gov/vuln/detail/CVE-2025-1825,2025-01-15
+CVE-2023-3539,2023-01-25,Remote code execution in Web Application Firewall allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.8,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.04975,https://nvd.nist.gov/vuln/detail/CVE-2023-3539,2025-01-15
+CVE-2024-1863,2024-02-26,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.4,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.00812,https://nvd.nist.gov/vuln/detail/CVE-2024-1863,2025-01-15
+CVE-2023-1784,2023-03-27,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,5.3,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.02985,https://nvd.nist.gov/vuln/detail/CVE-2023-1784,2025-01-15
+CVE-2024-7287,2024-04-28,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.3,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.90435,https://nvd.nist.gov/vuln/detail/CVE-2024-7287,2025-01-15
+CVE-2025-1825,2025-05-01,Improper certificate validation in Embedded IoT Gateway TLS transport handler allows man-in-the-middle data interception,4.2,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.03689,https://nvd.nist.gov/vuln/detail/CVE-2025-1825,2025-01-15
+CVE-2026-9529,2026-06-02,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.7,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.00355,https://nvd.nist.gov/vuln/detail/CVE-2026-9529,2025-01-15
+CVE-2026-1417,2026-07-03,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,7.6,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.03406,https://nvd.nist.gov/vuln/detail/CVE-2026-1417,2025-01-15
+CVE-2026-4440,2026-08-04,Pre-authentication buffer overflow in Enterprise Router OS network listener leads to remote code execution,9.3,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.0426,https://nvd.nist.gov/vuln/detail/CVE-2026-4440,2025-01-15
+CVE-2023-8721,2023-09-05,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,6.0,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.00574,https://nvd.nist.gov/vuln/detail/CVE-2023-8721,2025-01-15
+CVE-2023-6854,2023-10-06,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,5.1,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.02354,https://nvd.nist.gov/vuln/detail/CVE-2023-6854,2025-01-15
+CVE-2023-4843,2023-11-07,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.8,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.00846,https://nvd.nist.gov/vuln/detail/CVE-2023-4843,2025-01-15
+CVE-2026-5330,2026-12-08,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,8.5,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.00466,https://nvd.nist.gov/vuln/detail/CVE-2026-5330,2025-01-15
+CVE-2023-6854,2023-01-09,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,7.4,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.00095,https://nvd.nist.gov/vuln/detail/CVE-2023-6854,2025-01-15
+CVE-2026-6801,2026-02-10,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,5.7,SecNet,Web Application Firewall,3.0.0,3.1.0,,True,0.59392,https://nvd.nist.gov/vuln/detail/CVE-2026-6801,2025-01-15
+CVE-2025-2484,2025-03-11,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,8.5,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.03866,https://nvd.nist.gov/vuln/detail/CVE-2025-2484,2025-01-15
+CVE-2023-2066,2023-04-12,Authentication bypass in Enterprise Router OS session handling allows unauthenticated attacker to bypass administrative controls,8.6,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.00337,https://nvd.nist.gov/vuln/detail/CVE-2023-2066,2025-01-15
+CVE-2024-5499,2024-05-13,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.1,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.02257,https://nvd.nist.gov/vuln/detail/CVE-2024-5499,2025-01-15
+CVE-2025-8192,2025-06-14,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,7.6,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.85863,https://nvd.nist.gov/vuln/detail/CVE-2025-8192,2025-01-15
+CVE-2022-4763,2022-07-15,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,5.5,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,True,0.40808,https://nvd.nist.gov/vuln/detail/CVE-2022-4763,2025-01-15
+CVE-2025-1825,2025-08-16,Pre-authentication buffer overflow in Core Banking Framework network listener leads to remote code execution,9.7,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.02659,https://nvd.nist.gov/vuln/detail/CVE-2025-1825,2025-01-15
+CVE-2026-7316,2026-09-17,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,5.8,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.01189,https://nvd.nist.gov/vuln/detail/CVE-2026-7316,2025-01-15
+CVE-2025-1775,2025-10-18,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.7,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.04721,https://nvd.nist.gov/vuln/detail/CVE-2025-1775,2025-01-15
+CVE-2022-2636,2022-11-19,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.6,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.01638,https://nvd.nist.gov/vuln/detail/CVE-2022-2636,2025-01-15
+CVE-2023-3047,2023-12-20,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,5.3,CloudData,Cloud Database Engine,5.2.0,5.5.0,,True,0.74313,https://nvd.nist.gov/vuln/detail/CVE-2023-3047,2025-01-15
+CVE-2023-7396,2023-01-21,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.00968,https://nvd.nist.gov/vuln/detail/CVE-2023-7396,2025-01-15
+CVE-2026-2069,2026-02-22,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.7,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.03817,https://nvd.nist.gov/vuln/detail/CVE-2026-2069,2025-01-15
+CVE-2024-7966,2024-03-23,Remote code execution in Embedded IoT Gateway allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.8,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.00056,https://nvd.nist.gov/vuln/detail/CVE-2024-7966,2025-01-15
+CVE-2025-6301,2025-04-24,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,8.1,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.02483,https://nvd.nist.gov/vuln/detail/CVE-2025-6301,2025-01-15
+CVE-2022-5000,2022-05-25,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,6.0,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.04923,https://nvd.nist.gov/vuln/detail/CVE-2022-5000,2025-01-15
+CVE-2022-5611,2022-06-26,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.4,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.0302,https://nvd.nist.gov/vuln/detail/CVE-2022-5611,2025-01-15
+CVE-2026-7873,2026-07-27,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.2,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.00246,https://nvd.nist.gov/vuln/detail/CVE-2026-7873,2025-01-15
+CVE-2022-5000,2022-08-28,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.6,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.00755,https://nvd.nist.gov/vuln/detail/CVE-2022-5000,2025-01-15
+CVE-2022-2853,2022-09-01,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,7.7,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.00098,https://nvd.nist.gov/vuln/detail/CVE-2022-2853,2025-01-15
+CVE-2024-6191,2024-10-02,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.5,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.35343,https://nvd.nist.gov/vuln/detail/CVE-2024-6191,2025-01-15
+CVE-2023-2986,2023-11-03,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.9,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.04116,https://nvd.nist.gov/vuln/detail/CVE-2023-2986,2025-01-15
+CVE-2022-2959,2022-12-04,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.6,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.00206,https://nvd.nist.gov/vuln/detail/CVE-2022-2959,2025-01-15
+CVE-2022-2542,2022-01-05,Improper certificate validation in Enterprise Router OS TLS transport handler allows man-in-the-middle data interception,4.3,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.04361,https://nvd.nist.gov/vuln/detail/CVE-2022-2542,2025-01-15
+CVE-2025-1004,2025-02-06,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.8,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.00447,https://nvd.nist.gov/vuln/detail/CVE-2025-1004,2025-01-15
+CVE-2022-2636,2022-03-07,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,7.6,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.00252,https://nvd.nist.gov/vuln/detail/CVE-2022-2636,2025-01-15
+CVE-2023-9308,2023-04-08,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,6.6,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.03269,https://nvd.nist.gov/vuln/detail/CVE-2023-9308,2025-01-15
+CVE-2026-8041,2026-05-09,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.7,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.03734,https://nvd.nist.gov/vuln/detail/CVE-2026-8041,2025-01-15
+CVE-2026-5107,2026-06-10,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,8.0,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.0361,https://nvd.nist.gov/vuln/detail/CVE-2026-5107,2025-01-15
+CVE-2022-1190,2022-07-11,Remote code execution in Core Banking Framework allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,10.0,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.01038,https://nvd.nist.gov/vuln/detail/CVE-2022-1190,2025-01-15
+CVE-2025-2016,2025-08-12,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.4,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,True,0.47522,https://nvd.nist.gov/vuln/detail/CVE-2025-2016,2025-01-15
+CVE-2024-3427,2024-09-13,SQL injection flaw in Cloud Database Engine backend parser allows unauthorized read and write access to sensitive database tables,8.5,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.01887,https://nvd.nist.gov/vuln/detail/CVE-2024-3427,2025-01-15
+CVE-2024-9838,2024-10-14,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.2,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.02221,https://nvd.nist.gov/vuln/detail/CVE-2024-9838,2025-01-15
+CVE-2024-1395,2024-11-15,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.7,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.02356,https://nvd.nist.gov/vuln/detail/CVE-2024-1395,2025-01-15
+CVE-2026-6393,2026-12-16,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.8,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.00939,https://nvd.nist.gov/vuln/detail/CVE-2026-6393,2025-01-15
+CVE-2024-3558,2024-01-17,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,7.1,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.59727,https://nvd.nist.gov/vuln/detail/CVE-2024-3558,2025-01-15
+CVE-2024-4152,2024-02-18,Pre-authentication buffer overflow in Cloud Database Engine network listener leads to remote code execution,9.1,CloudData,Cloud Database Engine,5.0.0,5.2.0,,True,0.70012,https://nvd.nist.gov/vuln/detail/CVE-2024-4152,2025-01-15
+CVE-2023-6986,2023-03-19,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,5.4,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.02238,https://nvd.nist.gov/vuln/detail/CVE-2023-6986,2025-01-15
+CVE-2022-2853,2022-04-20,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,6.7,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.60562,https://nvd.nist.gov/vuln/detail/CVE-2022-2853,2025-01-15
+CVE-2023-7938,2023-05-21,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.7,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.01928,https://nvd.nist.gov/vuln/detail/CVE-2023-7938,2025-01-15
+CVE-2023-5736,2023-06-22,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,6.1,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.03542,https://nvd.nist.gov/vuln/detail/CVE-2023-5736,2025-01-15
+CVE-2023-6442,2023-07-23,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,5.2,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.00333,https://nvd.nist.gov/vuln/detail/CVE-2023-6442,2025-01-15
+CVE-2022-8114,2022-08-24,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.3,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.00941,https://nvd.nist.gov/vuln/detail/CVE-2022-8114,2025-01-15
+CVE-2023-8721,2023-09-25,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.6,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.02017,https://nvd.nist.gov/vuln/detail/CVE-2023-8721,2025-01-15
+CVE-2024-9967,2024-10-26,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,6.9,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.32038,https://nvd.nist.gov/vuln/detail/CVE-2024-9967,2025-01-15
+CVE-2024-2122,2024-11-27,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.0,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.75737,https://nvd.nist.gov/vuln/detail/CVE-2024-2122,2025-01-15
+CVE-2024-6578,2024-12-28,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.5,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.01903,https://nvd.nist.gov/vuln/detail/CVE-2024-6578,2025-01-15
+CVE-2022-3049,2022-01-01,Authentication bypass in Cloud Database Engine session handling allows unauthenticated attacker to bypass administrative controls,7.7,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.002,https://nvd.nist.gov/vuln/detail/CVE-2022-3049,2025-01-15
+CVE-2025-7190,2025-02-02,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.3,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.03274,https://nvd.nist.gov/vuln/detail/CVE-2025-7190,2025-01-15
+CVE-2024-6249,2024-03-03,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,7.9,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.96448,https://nvd.nist.gov/vuln/detail/CVE-2024-6249,2025-01-15
+CVE-2025-7002,2025-04-04,Pre-authentication buffer overflow in Enterprise Router OS network listener leads to remote code execution,9.2,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.03705,https://nvd.nist.gov/vuln/detail/CVE-2025-7002,2025-01-15
+CVE-2026-4072,2026-05-05,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.03263,https://nvd.nist.gov/vuln/detail/CVE-2026-4072,2025-01-15
+CVE-2024-3427,2024-06-06,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,6.2,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.01973,https://nvd.nist.gov/vuln/detail/CVE-2024-3427,2025-01-15
+CVE-2026-1417,2026-07-07,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,6.7,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,True,0.6992,https://nvd.nist.gov/vuln/detail/CVE-2026-1417,2025-01-15
+CVE-2023-6534,2023-08-08,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.7,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.04324,https://nvd.nist.gov/vuln/detail/CVE-2023-6534,2025-01-15
+CVE-2026-8158,2026-09-09,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,6.0,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.02922,https://nvd.nist.gov/vuln/detail/CVE-2026-8158,2025-01-15
+CVE-2023-1539,2023-10-10,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,7.6,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.03605,https://nvd.nist.gov/vuln/detail/CVE-2023-1539,2025-01-15
+CVE-2026-6393,2026-11-11,Improper certificate validation in Identity Provider SaaS TLS transport handler allows man-in-the-middle data interception,4.0,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.01255,https://nvd.nist.gov/vuln/detail/CVE-2026-6393,2025-01-15
+CVE-2026-8421,2026-12-12,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.4,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.00552,https://nvd.nist.gov/vuln/detail/CVE-2026-8421,2025-01-15
+CVE-2022-4104,2022-01-13,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,5.8,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.01591,https://nvd.nist.gov/vuln/detail/CVE-2022-4104,2025-01-15
+CVE-2023-8806,2023-02-14,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,6.4,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.02636,https://nvd.nist.gov/vuln/detail/CVE-2023-8806,2025-01-15
+CVE-2026-2191,2026-03-15,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,5.1,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.00579,https://nvd.nist.gov/vuln/detail/CVE-2026-2191,2025-01-15
+CVE-2023-4719,2023-04-16,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,6.5,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.01899,https://nvd.nist.gov/vuln/detail/CVE-2023-4719,2025-01-15
+CVE-2023-8509,2023-05-17,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.7,CloudData,Cloud Database Engine,3.0.0,4.9.0,,True,0.73383,https://nvd.nist.gov/vuln/detail/CVE-2023-8509,2025-01-15
+CVE-2025-4709,2025-06-18,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,7.6,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.00915,https://nvd.nist.gov/vuln/detail/CVE-2025-4709,2025-01-15
+CVE-2022-2648,2022-07-19,Remote code execution in Core Banking Framework allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.4,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.01315,https://nvd.nist.gov/vuln/detail/CVE-2022-2648,2025-01-15
+CVE-2024-4157,2024-08-20,Privilege escalation in Cloud Database Engine daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.4,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.04057,https://nvd.nist.gov/vuln/detail/CVE-2024-4157,2025-01-15
+CVE-2023-6986,2023-09-21,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.7,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.03698,https://nvd.nist.gov/vuln/detail/CVE-2023-6986,2025-01-15
+CVE-2026-5330,2026-10-22,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,7.6,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.02257,https://nvd.nist.gov/vuln/detail/CVE-2026-5330,2025-01-15
+CVE-2022-2365,2022-11-23,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.9,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.79255,https://nvd.nist.gov/vuln/detail/CVE-2022-2365,2025-01-15
+CVE-2026-3062,2026-12-24,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.5,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.01,https://nvd.nist.gov/vuln/detail/CVE-2026-3062,2025-01-15
+CVE-2026-9754,2026-01-25,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,5.4,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.65296,https://nvd.nist.gov/vuln/detail/CVE-2026-9754,2025-01-15
+CVE-2025-7944,2025-02-26,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.8,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.04406,https://nvd.nist.gov/vuln/detail/CVE-2025-7944,2025-01-15
+CVE-2023-7184,2023-03-27,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,7.2,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.03364,https://nvd.nist.gov/vuln/detail/CVE-2023-7184,2025-01-15
+CVE-2026-3738,2026-04-28,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,8.0,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.02353,https://nvd.nist.gov/vuln/detail/CVE-2026-3738,2025-01-15
+CVE-2023-7938,2023-05-01,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.03466,https://nvd.nist.gov/vuln/detail/CVE-2023-7938,2025-01-15
+CVE-2024-3489,2024-06-02,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.6,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.0177,https://nvd.nist.gov/vuln/detail/CVE-2024-3489,2025-01-15
+CVE-2026-9754,2026-07-03,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,6.8,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.96243,https://nvd.nist.gov/vuln/detail/CVE-2026-9754,2025-01-15
+CVE-2022-8400,2022-08-04,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.4,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.03374,https://nvd.nist.gov/vuln/detail/CVE-2022-8400,2025-01-15
+CVE-2026-5887,2026-09-05,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,8.3,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,True,0.50613,https://nvd.nist.gov/vuln/detail/CVE-2026-5887,2025-01-15
+CVE-2022-3049,2022-10-06,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,6.2,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.02791,https://nvd.nist.gov/vuln/detail/CVE-2022-3049,2025-01-15
+CVE-2022-8339,2022-11-07,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.02016,https://nvd.nist.gov/vuln/detail/CVE-2022-8339,2025-01-15
+CVE-2025-6625,2025-12-08,SQL injection flaw in Cloud Database Engine backend parser allows unauthorized read and write access to sensitive database tables,7.8,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.03621,https://nvd.nist.gov/vuln/detail/CVE-2025-6625,2025-01-15
+CVE-2025-7668,2025-01-09,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,8.9,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.40458,https://nvd.nist.gov/vuln/detail/CVE-2025-7668,2025-01-15
+CVE-2025-8390,2025-02-10,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.02423,https://nvd.nist.gov/vuln/detail/CVE-2025-8390,2025-01-15
+CVE-2025-7190,2025-03-11,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,7.6,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.04155,https://nvd.nist.gov/vuln/detail/CVE-2025-7190,2025-01-15
+CVE-2026-8041,2026-04-12,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.5,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.70412,https://nvd.nist.gov/vuln/detail/CVE-2026-8041,2025-01-15
+CVE-2023-4843,2023-05-13,Remote code execution in Web Application Firewall allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.3,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.00052,https://nvd.nist.gov/vuln/detail/CVE-2023-4843,2025-01-15
+CVE-2026-1064,2026-06-14,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,7.6,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.02844,https://nvd.nist.gov/vuln/detail/CVE-2026-1064,2025-01-15
+CVE-2026-6541,2026-07-15,Improper certificate validation in Enterprise Router OS TLS transport handler allows man-in-the-middle data interception,4.3,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.77262,https://nvd.nist.gov/vuln/detail/CVE-2026-6541,2025-01-15
+CVE-2023-8554,2023-08-16,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.9,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.0055,https://nvd.nist.gov/vuln/detail/CVE-2023-8554,2025-01-15
+CVE-2022-2853,2022-09-17,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,7.7,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.01202,https://nvd.nist.gov/vuln/detail/CVE-2022-2853,2025-01-15
+CVE-2026-5107,2026-10-18,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,7.9,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.03971,https://nvd.nist.gov/vuln/detail/CVE-2026-5107,2025-01-15
+CVE-2023-1512,2023-11-19,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.9,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.02434,https://nvd.nist.gov/vuln/detail/CVE-2023-1512,2025-01-15
+CVE-2025-1728,2025-12-20,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,8.6,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,True,0.58298,https://nvd.nist.gov/vuln/detail/CVE-2025-1728,2025-01-15
+CVE-2023-2066,2023-01-21,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.1,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.00729,https://nvd.nist.gov/vuln/detail/CVE-2023-2066,2025-01-15
+CVE-2026-2678,2026-02-22,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.1,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.04018,https://nvd.nist.gov/vuln/detail/CVE-2026-2678,2025-01-15
+CVE-2023-8509,2023-03-23,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,6.2,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.02522,https://nvd.nist.gov/vuln/detail/CVE-2023-8509,2025-01-15
+CVE-2023-6305,2023-04-24,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,6.9,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.037,https://nvd.nist.gov/vuln/detail/CVE-2023-6305,2025-01-15
+CVE-2023-6988,2023-05-25,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.3,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.03936,https://nvd.nist.gov/vuln/detail/CVE-2023-6988,2025-01-15
+CVE-2023-9815,2023-06-26,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.6,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.04054,https://nvd.nist.gov/vuln/detail/CVE-2023-9815,2025-01-15
+CVE-2023-4627,2023-07-27,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,7.0,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.01173,https://nvd.nist.gov/vuln/detail/CVE-2023-4627,2025-01-15
+CVE-2023-8509,2023-08-28,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.6,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.00287,https://nvd.nist.gov/vuln/detail/CVE-2023-8509,2025-01-15
+CVE-2022-6188,2022-09-01,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,8.5,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.00572,https://nvd.nist.gov/vuln/detail/CVE-2022-6188,2025-01-15
+CVE-2024-2899,2024-10-02,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,7.1,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.04958,https://nvd.nist.gov/vuln/detail/CVE-2024-2899,2025-01-15
+CVE-2024-1851,2024-11-03,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.1,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.74901,https://nvd.nist.gov/vuln/detail/CVE-2024-1851,2025-01-15
+CVE-2025-7949,2025-12-04,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.1,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.01512,https://nvd.nist.gov/vuln/detail/CVE-2025-7949,2025-01-15
+CVE-2023-6305,2023-01-05,Remote code execution in Enterprise Router OS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.9,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.47368,https://nvd.nist.gov/vuln/detail/CVE-2023-6305,2025-01-15
+CVE-2024-2495,2024-02-06,Privilege escalation in Enterprise Router OS daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.9,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.95857,https://nvd.nist.gov/vuln/detail/CVE-2024-2495,2025-01-15
+CVE-2024-1699,2024-03-07,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,5.8,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.02933,https://nvd.nist.gov/vuln/detail/CVE-2024-1699,2025-01-15
+CVE-2026-6348,2026-04-08,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.9,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,True,0.37535,https://nvd.nist.gov/vuln/detail/CVE-2026-6348,2025-01-15
+CVE-2026-5465,2026-05-09,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.2,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.03084,https://nvd.nist.gov/vuln/detail/CVE-2026-5465,2025-01-15
+CVE-2023-7619,2023-06-10,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,5.4,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.0444,https://nvd.nist.gov/vuln/detail/CVE-2023-7619,2025-01-15
+CVE-2025-5199,2025-07-11,Remote code execution in Web Application Firewall allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.01299,https://nvd.nist.gov/vuln/detail/CVE-2025-5199,2025-01-15
+CVE-2024-1699,2024-08-12,Pre-authentication buffer overflow in Web Application Firewall network listener leads to remote code execution,9.1,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.03298,https://nvd.nist.gov/vuln/detail/CVE-2024-1699,2025-01-15
+CVE-2026-8421,2026-09-13,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,8.5,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.03653,https://nvd.nist.gov/vuln/detail/CVE-2026-8421,2025-01-15
+CVE-2026-5330,2026-10-14,Authentication bypass in Core Banking Framework session handling allows unauthenticated attacker to bypass administrative controls,8.1,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.02468,https://nvd.nist.gov/vuln/detail/CVE-2026-5330,2025-01-15
+CVE-2026-6855,2026-11-15,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.4,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.02566,https://nvd.nist.gov/vuln/detail/CVE-2026-6855,2025-01-15
+CVE-2024-1956,2024-12-16,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,5.0,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.46774,https://nvd.nist.gov/vuln/detail/CVE-2024-1956,2025-01-15
+CVE-2023-3539,2023-01-17,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,10.0,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.0401,https://nvd.nist.gov/vuln/detail/CVE-2023-3539,2025-01-15
+CVE-2025-9666,2025-02-18,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,7.3,NetRoute,Enterprise Router OS,12.0,12.5,,True,0.81747,https://nvd.nist.gov/vuln/detail/CVE-2025-9666,2025-01-15
+CVE-2024-6056,2024-03-19,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,8.5,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.01871,https://nvd.nist.gov/vuln/detail/CVE-2024-6056,2025-01-15
+CVE-2024-8526,2024-04-20,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.1,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.00667,https://nvd.nist.gov/vuln/detail/CVE-2024-8526,2025-01-15
+CVE-2023-1262,2023-05-21,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.9,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.00732,https://nvd.nist.gov/vuln/detail/CVE-2023-1262,2025-01-15
+CVE-2026-8164,2026-06-22,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.0,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.41348,https://nvd.nist.gov/vuln/detail/CVE-2026-8164,2025-01-15
+CVE-2023-9308,2023-07-23,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,6.3,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.02575,https://nvd.nist.gov/vuln/detail/CVE-2023-9308,2025-01-15
+CVE-2026-6734,2026-08-24,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.5,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.03037,https://nvd.nist.gov/vuln/detail/CVE-2026-6734,2025-01-15
+CVE-2024-8343,2024-09-25,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,8.8,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.02516,https://nvd.nist.gov/vuln/detail/CVE-2024-8343,2025-01-15
+CVE-2024-1851,2024-10-26,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,8.2,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.01089,https://nvd.nist.gov/vuln/detail/CVE-2024-1851,2025-01-15
+CVE-2023-8805,2023-11-27,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.6,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.02198,https://nvd.nist.gov/vuln/detail/CVE-2023-8805,2025-01-15
+CVE-2026-2060,2026-12-28,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.4,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.03681,https://nvd.nist.gov/vuln/detail/CVE-2026-2060,2025-01-15
+CVE-2023-2679,2023-01-01,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,8.5,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.01055,https://nvd.nist.gov/vuln/detail/CVE-2023-2679,2025-01-15
+CVE-2024-1863,2024-02-02,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,6.0,CloudData,Cloud Database Engine,5.0.0,5.2.0,,True,0.31645,https://nvd.nist.gov/vuln/detail/CVE-2024-1863,2025-01-15
+CVE-2022-2062,2022-03-03,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.6,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.04706,https://nvd.nist.gov/vuln/detail/CVE-2022-2062,2025-01-15
+CVE-2025-2016,2025-04-04,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,5.4,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.0243,https://nvd.nist.gov/vuln/detail/CVE-2025-2016,2025-01-15
+CVE-2022-6864,2022-05-05,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.2,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.91466,https://nvd.nist.gov/vuln/detail/CVE-2022-6864,2025-01-15
+CVE-2022-9352,2022-06-06,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.0,NetRoute,Enterprise Router OS,12.4,13.0,,True,0.45315,https://nvd.nist.gov/vuln/detail/CVE-2022-9352,2025-01-15
+CVE-2022-2959,2022-07-07,Improper certificate validation in Web Application Firewall TLS transport handler allows man-in-the-middle data interception,4.2,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.03946,https://nvd.nist.gov/vuln/detail/CVE-2022-2959,2025-01-15
+CVE-2025-7799,2025-08-08,Pre-authentication buffer overflow in Cloud Database Engine network listener leads to remote code execution,9.1,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.04273,https://nvd.nist.gov/vuln/detail/CVE-2025-7799,2025-01-15
+CVE-2023-5736,2023-09-09,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,7.7,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.0161,https://nvd.nist.gov/vuln/detail/CVE-2023-5736,2025-01-15
+CVE-2026-1769,2026-10-10,Pre-authentication buffer overflow in Web Application Firewall network listener leads to remote code execution,9.4,SecNet,Web Application Firewall,1.0.0,2.9.0,,True,0.75138,https://nvd.nist.gov/vuln/detail/CVE-2026-1769,2025-01-15
+CVE-2026-6393,2026-11-11,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.9,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.01724,https://nvd.nist.gov/vuln/detail/CVE-2026-6393,2025-01-15
+CVE-2022-8560,2022-12-12,SQL injection flaw in Cloud Database Engine backend parser allows unauthorized read and write access to sensitive database tables,8.3,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.76495,https://nvd.nist.gov/vuln/detail/CVE-2022-8560,2025-01-15
+CVE-2022-5737,2022-01-13,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,7.3,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.02449,https://nvd.nist.gov/vuln/detail/CVE-2022-5737,2025-01-15
+CVE-2024-6578,2024-02-14,Privilege escalation in Cloud Database Engine daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.0,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.88615,https://nvd.nist.gov/vuln/detail/CVE-2024-6578,2025-01-15
+CVE-2022-1098,2022-03-15,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.7,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.54206,https://nvd.nist.gov/vuln/detail/CVE-2022-1098,2025-01-15
+CVE-2022-5282,2022-04-16,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.7,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.00865,https://nvd.nist.gov/vuln/detail/CVE-2022-5282,2025-01-15
+CVE-2024-4157,2024-05-17,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.5,SecNet,Web Application Firewall,2.0.0,2.9.9,,True,0.38585,https://nvd.nist.gov/vuln/detail/CVE-2024-4157,2025-01-15
+CVE-2022-4763,2022-06-18,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.0,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.02823,https://nvd.nist.gov/vuln/detail/CVE-2022-4763,2025-01-15
+CVE-2023-4627,2023-07-19,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,7.3,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.53369,https://nvd.nist.gov/vuln/detail/CVE-2023-4627,2025-01-15
+CVE-2022-9006,2022-08-20,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.3,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.02286,https://nvd.nist.gov/vuln/detail/CVE-2022-9006,2025-01-15
+CVE-2025-1004,2025-09-21,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,8.7,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.0264,https://nvd.nist.gov/vuln/detail/CVE-2025-1004,2025-01-15
+CVE-2023-7819,2023-10-22,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,5.7,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.01019,https://nvd.nist.gov/vuln/detail/CVE-2023-7819,2025-01-15
+CVE-2026-3914,2026-11-23,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.9,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.01618,https://nvd.nist.gov/vuln/detail/CVE-2026-3914,2025-01-15
+CVE-2024-7801,2024-12-24,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,5.7,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.43737,https://nvd.nist.gov/vuln/detail/CVE-2024-7801,2025-01-15
+CVE-2025-7949,2025-01-25,Authentication bypass in Core Banking Framework session handling allows unauthenticated attacker to bypass administrative controls,8.4,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.04003,https://nvd.nist.gov/vuln/detail/CVE-2025-7949,2025-01-15
+CVE-2022-3502,2022-02-26,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.3,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.04837,https://nvd.nist.gov/vuln/detail/CVE-2022-3502,2025-01-15
+CVE-2026-7019,2026-03-27,Remote code execution in Core Banking Framework allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.9,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.00871,https://nvd.nist.gov/vuln/detail/CVE-2026-7019,2025-01-15
+CVE-2025-7546,2025-04-28,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,6.6,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.68063,https://nvd.nist.gov/vuln/detail/CVE-2025-7546,2025-01-15
+CVE-2026-8004,2026-05-01,Privilege escalation in Enterprise Router OS daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.9,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.04869,https://nvd.nist.gov/vuln/detail/CVE-2026-8004,2025-01-15
+CVE-2023-2540,2023-06-02,Pre-authentication buffer overflow in Embedded IoT Gateway network listener leads to remote code execution,9.5,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.04941,https://nvd.nist.gov/vuln/detail/CVE-2023-2540,2025-01-15
+CVE-2023-6442,2023-07-03,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.6,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.5366,https://nvd.nist.gov/vuln/detail/CVE-2023-6442,2025-01-15
+CVE-2024-8526,2024-08-04,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.6,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.04041,https://nvd.nist.gov/vuln/detail/CVE-2024-8526,2025-01-15
+CVE-2025-4486,2025-09-05,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,7.8,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.01659,https://nvd.nist.gov/vuln/detail/CVE-2025-4486,2025-01-15
+CVE-2025-5946,2025-10-06,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,8.1,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.04959,https://nvd.nist.gov/vuln/detail/CVE-2025-5946,2025-01-15
+CVE-2026-6745,2026-11-07,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.8,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.04362,https://nvd.nist.gov/vuln/detail/CVE-2026-6745,2025-01-15
+CVE-2023-5859,2023-12-08,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,8.7,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.04541,https://nvd.nist.gov/vuln/detail/CVE-2023-5859,2025-01-15
+CVE-2026-1659,2026-01-09,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,7.3,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.00598,https://nvd.nist.gov/vuln/detail/CVE-2026-1659,2025-01-15
+CVE-2023-8554,2023-02-10,Pre-authentication buffer overflow in Web Application Firewall network listener leads to remote code execution,9.5,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.00139,https://nvd.nist.gov/vuln/detail/CVE-2023-8554,2025-01-15
+CVE-2025-8390,2025-03-11,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,5.8,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.0437,https://nvd.nist.gov/vuln/detail/CVE-2025-8390,2025-01-15
+CVE-2024-5499,2024-04-12,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.7,SecNet,Web Application Firewall,1.0.0,2.9.0,,True,0.47905,https://nvd.nist.gov/vuln/detail/CVE-2024-5499,2025-01-15
+CVE-2023-2540,2023-05-13,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.8,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.01521,https://nvd.nist.gov/vuln/detail/CVE-2023-2540,2025-01-15
+CVE-2023-9945,2023-06-14,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.3,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.03356,https://nvd.nist.gov/vuln/detail/CVE-2023-9945,2025-01-15
+CVE-2023-8806,2023-07-15,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,7.5,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.02631,https://nvd.nist.gov/vuln/detail/CVE-2023-8806,2025-01-15
+CVE-2026-5849,2026-08-16,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.6,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.91855,https://nvd.nist.gov/vuln/detail/CVE-2026-5849,2025-01-15
+CVE-2025-2016,2025-09-17,Improper certificate validation in Enterprise Router OS TLS transport handler allows man-in-the-middle data interception,4.4,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.77223,https://nvd.nist.gov/vuln/detail/CVE-2025-2016,2025-01-15
+CVE-2024-5413,2024-10-18,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,8.6,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.02245,https://nvd.nist.gov/vuln/detail/CVE-2024-5413,2025-01-15
+CVE-2023-6988,2023-11-19,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.8,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.01225,https://nvd.nist.gov/vuln/detail/CVE-2023-6988,2025-01-15
+CVE-2024-4152,2024-12-20,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,6.3,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.04755,https://nvd.nist.gov/vuln/detail/CVE-2024-4152,2025-01-15
+CVE-2024-8343,2024-01-21,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.5,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.00401,https://nvd.nist.gov/vuln/detail/CVE-2024-8343,2025-01-15
+CVE-2024-9319,2024-02-22,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,6.2,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.39522,https://nvd.nist.gov/vuln/detail/CVE-2024-9319,2025-01-15
+CVE-2025-4510,2025-03-23,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,6.9,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.01439,https://nvd.nist.gov/vuln/detail/CVE-2025-4510,2025-01-15
+CVE-2024-6249,2024-04-24,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,6.6,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.0027,https://nvd.nist.gov/vuln/detail/CVE-2024-6249,2025-01-15
+CVE-2022-3967,2022-05-25,Privilege escalation in Enterprise Router OS daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.9,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.02681,https://nvd.nist.gov/vuln/detail/CVE-2022-3967,2025-01-15
+CVE-2023-3869,2023-06-26,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.0,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.04417,https://nvd.nist.gov/vuln/detail/CVE-2023-3869,2025-01-15
+CVE-2022-7616,2022-07-27,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,8.0,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.04772,https://nvd.nist.gov/vuln/detail/CVE-2022-7616,2025-01-15
+CVE-2025-7949,2025-08-28,Privilege escalation in Enterprise Router OS daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.8,NetRoute,Enterprise Router OS,12.0,12.5,,True,0.47517,https://nvd.nist.gov/vuln/detail/CVE-2025-7949,2025-01-15
+CVE-2026-3738,2026-09-01,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,7.6,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.56101,https://nvd.nist.gov/vuln/detail/CVE-2026-3738,2025-01-15
+CVE-2023-3869,2023-10-02,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,6.2,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.03768,https://nvd.nist.gov/vuln/detail/CVE-2023-3869,2025-01-15
+CVE-2024-9808,2024-11-03,Improper certificate validation in Embedded IoT Gateway TLS transport handler allows man-in-the-middle data interception,4.5,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.03359,https://nvd.nist.gov/vuln/detail/CVE-2024-9808,2025-01-15
+CVE-2025-9680,2025-12-04,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.2,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.73255,https://nvd.nist.gov/vuln/detail/CVE-2025-9680,2025-01-15
+CVE-2022-8400,2022-01-05,Authentication bypass in Enterprise Router OS session handling allows unauthenticated attacker to bypass administrative controls,7.7,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.00647,https://nvd.nist.gov/vuln/detail/CVE-2022-8400,2025-01-15
+CVE-2024-6191,2024-02-06,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.4,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.30796,https://nvd.nist.gov/vuln/detail/CVE-2024-6191,2025-01-15
+CVE-2025-9702,2025-03-07,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,6.7,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.04555,https://nvd.nist.gov/vuln/detail/CVE-2025-9702,2025-01-15
+CVE-2026-8208,2026-04-08,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,7.5,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.03543,https://nvd.nist.gov/vuln/detail/CVE-2026-8208,2025-01-15
+CVE-2022-5780,2022-05-09,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,5.0,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.90527,https://nvd.nist.gov/vuln/detail/CVE-2022-5780,2025-01-15
+CVE-2022-8404,2022-06-10,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,6.0,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.00083,https://nvd.nist.gov/vuln/detail/CVE-2022-8404,2025-01-15
+CVE-2022-3961,2022-07-11,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,5.9,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.01855,https://nvd.nist.gov/vuln/detail/CVE-2022-3961,2025-01-15
+CVE-2025-5548,2025-08-12,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.04862,https://nvd.nist.gov/vuln/detail/CVE-2025-5548,2025-01-15
+CVE-2025-7668,2025-09-13,Improper certificate validation in Identity Provider SaaS TLS transport handler allows man-in-the-middle data interception,4.8,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.04632,https://nvd.nist.gov/vuln/detail/CVE-2025-7668,2025-01-15
+CVE-2024-2122,2024-10-14,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.1,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.01482,https://nvd.nist.gov/vuln/detail/CVE-2024-2122,2025-01-15
+CVE-2025-5199,2025-11-15,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,6.2,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.02248,https://nvd.nist.gov/vuln/detail/CVE-2025-5199,2025-01-15
+CVE-2024-9905,2024-12-16,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,7.3,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.008,https://nvd.nist.gov/vuln/detail/CVE-2024-9905,2025-01-15
+CVE-2022-7616,2022-01-17,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,7.2,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.02731,https://nvd.nist.gov/vuln/detail/CVE-2022-7616,2025-01-15
+CVE-2026-3062,2026-02-18,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,5.6,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.53286,https://nvd.nist.gov/vuln/detail/CVE-2026-3062,2025-01-15
+CVE-2026-6393,2026-03-19,Remote code execution in Embedded IoT Gateway allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.0,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.02936,https://nvd.nist.gov/vuln/detail/CVE-2026-6393,2025-01-15
+CVE-2022-1098,2022-04-20,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.9,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.03923,https://nvd.nist.gov/vuln/detail/CVE-2022-1098,2025-01-15
+CVE-2022-5282,2022-05-21,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,5.8,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.02334,https://nvd.nist.gov/vuln/detail/CVE-2022-5282,2025-01-15
+CVE-2025-7949,2025-06-22,Pre-authentication buffer overflow in Embedded IoT Gateway network listener leads to remote code execution,9.1,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.00705,https://nvd.nist.gov/vuln/detail/CVE-2025-7949,2025-01-15
+CVE-2026-2707,2026-07-23,Authentication bypass in Core Banking Framework session handling allows unauthenticated attacker to bypass administrative controls,7.6,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.00238,https://nvd.nist.gov/vuln/detail/CVE-2026-2707,2025-01-15
+CVE-2022-3027,2022-08-24,Pre-authentication buffer overflow in Cloud Database Engine network listener leads to remote code execution,9.7,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.04906,https://nvd.nist.gov/vuln/detail/CVE-2022-3027,2025-01-15
+CVE-2022-3143,2022-09-25,Remote code execution in Embedded IoT Gateway allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.01465,https://nvd.nist.gov/vuln/detail/CVE-2022-3143,2025-01-15
+CVE-2024-6732,2024-10-26,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,7.1,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.04335,https://nvd.nist.gov/vuln/detail/CVE-2024-6732,2025-01-15
+CVE-2023-2066,2023-11-27,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,6.7,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.04043,https://nvd.nist.gov/vuln/detail/CVE-2023-2066,2025-01-15
+CVE-2026-6801,2026-12-28,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.4,NetRoute,Enterprise Router OS,12.4,13.0,,True,0.73533,https://nvd.nist.gov/vuln/detail/CVE-2026-6801,2025-01-15
+CVE-2024-9808,2024-01-01,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,5.9,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.96064,https://nvd.nist.gov/vuln/detail/CVE-2024-9808,2025-01-15
+CVE-2022-2931,2022-02-02,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,6.9,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.03478,https://nvd.nist.gov/vuln/detail/CVE-2022-2931,2025-01-15
+CVE-2023-4719,2023-03-03,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,7.9,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.03679,https://nvd.nist.gov/vuln/detail/CVE-2023-4719,2025-01-15
+CVE-2026-5910,2026-04-04,Authentication bypass in Enterprise Router OS session handling allows unauthenticated attacker to bypass administrative controls,8.8,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.04974,https://nvd.nist.gov/vuln/detail/CVE-2026-5910,2025-01-15
+CVE-2025-4073,2025-05-05,Privilege escalation in Identity Provider SaaS daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.4,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.00757,https://nvd.nist.gov/vuln/detail/CVE-2025-4073,2025-01-15
+CVE-2023-1512,2023-06-06,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,8.3,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.00171,https://nvd.nist.gov/vuln/detail/CVE-2023-1512,2025-01-15
+CVE-2022-6463,2022-07-07,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.6,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.00609,https://nvd.nist.gov/vuln/detail/CVE-2022-6463,2025-01-15
+CVE-2024-8343,2024-08-08,Information disclosure in Cloud Database Engine API endpoint leaks sensitive cryptographic keys and internal session tokens,5.5,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.78287,https://nvd.nist.gov/vuln/detail/CVE-2024-8343,2025-01-15
+CVE-2025-2693,2025-09-09,Remote code execution in Embedded IoT Gateway allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.00804,https://nvd.nist.gov/vuln/detail/CVE-2025-2693,2025-01-15
+CVE-2023-8806,2023-10-10,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.2,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.0381,https://nvd.nist.gov/vuln/detail/CVE-2023-8806,2025-01-15
+CVE-2023-4843,2023-11-11,Privilege escalation in Enterprise Router OS daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.3,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.04116,https://nvd.nist.gov/vuln/detail/CVE-2023-4843,2025-01-15
+CVE-2026-3731,2026-12-12,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,7.4,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.03617,https://nvd.nist.gov/vuln/detail/CVE-2026-3731,2025-01-15
+CVE-2025-2353,2025-01-13,Improper certificate validation in Enterprise Router OS TLS transport handler allows man-in-the-middle data interception,4.4,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.46784,https://nvd.nist.gov/vuln/detail/CVE-2025-2353,2025-01-15
+CVE-2023-8455,2023-02-14,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.6,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.04221,https://nvd.nist.gov/vuln/detail/CVE-2023-8455,2025-01-15
+CVE-2026-1659,2026-03-15,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.4,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.01918,https://nvd.nist.gov/vuln/detail/CVE-2026-1659,2025-01-15
+CVE-2025-9002,2025-04-16,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.8,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.00955,https://nvd.nist.gov/vuln/detail/CVE-2025-9002,2025-01-15
+CVE-2023-8513,2023-05-17,Improper certificate validation in Embedded IoT Gateway TLS transport handler allows man-in-the-middle data interception,4.8,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.01381,https://nvd.nist.gov/vuln/detail/CVE-2023-8513,2025-01-15
+CVE-2024-1851,2024-06-18,Pre-authentication buffer overflow in Embedded IoT Gateway network listener leads to remote code execution,10.0,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.01956,https://nvd.nist.gov/vuln/detail/CVE-2024-1851,2025-01-15
+CVE-2025-6625,2025-07-19,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.4,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.03782,https://nvd.nist.gov/vuln/detail/CVE-2025-6625,2025-01-15
+CVE-2026-6745,2026-08-20,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.3,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.01375,https://nvd.nist.gov/vuln/detail/CVE-2026-6745,2025-01-15
+CVE-2026-3731,2026-09-21,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.1,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.00146,https://nvd.nist.gov/vuln/detail/CVE-2026-3731,2025-01-15
+CVE-2026-5893,2026-10-22,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,7.0,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.02996,https://nvd.nist.gov/vuln/detail/CVE-2026-5893,2025-01-15
+CVE-2023-8513,2023-11-23,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,6.8,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.03404,https://nvd.nist.gov/vuln/detail/CVE-2023-8513,2025-01-15
+CVE-2024-3255,2024-12-24,Request smuggling and cache poisoning in Embedded IoT Gateway HTTP request pipeline allows session hijacking,5.6,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.88285,https://nvd.nist.gov/vuln/detail/CVE-2024-3255,2025-01-15
+CVE-2024-7966,2024-01-25,Authentication bypass in Cloud Database Engine session handling allows unauthenticated attacker to bypass administrative controls,8.6,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.4806,https://nvd.nist.gov/vuln/detail/CVE-2024-7966,2025-01-15
+CVE-2026-1417,2026-02-26,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,6.1,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.03227,https://nvd.nist.gov/vuln/detail/CVE-2026-1417,2025-01-15
+CVE-2023-7396,2023-03-27,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,8.0,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.03394,https://nvd.nist.gov/vuln/detail/CVE-2023-7396,2025-01-15
+CVE-2023-8721,2023-04-28,Pre-authentication buffer overflow in Embedded IoT Gateway network listener leads to remote code execution,9.4,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.03036,https://nvd.nist.gov/vuln/detail/CVE-2023-8721,2025-01-15
+CVE-2023-3849,2023-05-01,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,6.8,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,True,0.9513,https://nvd.nist.gov/vuln/detail/CVE-2023-3849,2025-01-15
+CVE-2023-7619,2023-06-02,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,5.2,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.04486,https://nvd.nist.gov/vuln/detail/CVE-2023-7619,2025-01-15
+CVE-2026-8041,2026-07-03,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,5.9,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.0266,https://nvd.nist.gov/vuln/detail/CVE-2026-8041,2025-01-15
+CVE-2024-4157,2024-08-04,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.9,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.0172,https://nvd.nist.gov/vuln/detail/CVE-2024-4157,2025-01-15
+CVE-2024-6578,2024-09-05,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,7.8,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,False,0.9514,https://nvd.nist.gov/vuln/detail/CVE-2024-6578,2025-01-15
+CVE-2023-7303,2023-10-06,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,7.3,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.41271,https://nvd.nist.gov/vuln/detail/CVE-2023-7303,2025-01-15
+CVE-2025-4510,2025-11-07,Remote code execution in Embedded IoT Gateway allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.4,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.97659,https://nvd.nist.gov/vuln/detail/CVE-2025-4510,2025-01-15
+CVE-2025-6588,2025-12-08,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.9,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.02213,https://nvd.nist.gov/vuln/detail/CVE-2025-6588,2025-01-15
+CVE-2024-4556,2024-01-09,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,7.7,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.03973,https://nvd.nist.gov/vuln/detail/CVE-2024-4556,2025-01-15
+CVE-2025-1717,2025-02-10,Pre-authentication buffer overflow in Core Banking Framework network listener leads to remote code execution,9.1,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.01199,https://nvd.nist.gov/vuln/detail/CVE-2025-1717,2025-01-15
+CVE-2024-1225,2024-03-11,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.1,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.01182,https://nvd.nist.gov/vuln/detail/CVE-2024-1225,2025-01-15
+CVE-2024-4769,2024-04-12,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.3,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.03658,https://nvd.nist.gov/vuln/detail/CVE-2024-4769,2025-01-15
+CVE-2026-2707,2026-05-13,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,6.6,SecNet,Web Application Firewall,2.0.0,2.9.9,,True,0.62701,https://nvd.nist.gov/vuln/detail/CVE-2026-2707,2025-01-15
+CVE-2024-8683,2024-06-14,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.7,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.04602,https://nvd.nist.gov/vuln/detail/CVE-2024-8683,2025-01-15
+CVE-2026-6801,2026-07-15,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.7,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.03948,https://nvd.nist.gov/vuln/detail/CVE-2026-6801,2025-01-15
+CVE-2025-5548,2025-08-16,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.0124,https://nvd.nist.gov/vuln/detail/CVE-2025-5548,2025-01-15
+CVE-2024-5488,2024-09-17,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.5,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.01143,https://nvd.nist.gov/vuln/detail/CVE-2024-5488,2025-01-15
+CVE-2025-9680,2025-10-18,Cross-site scripting (XSS) and CSRF in Core Banking Framework web interface allows attacker to hijack authenticated analyst sessions,4.2,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.01448,https://nvd.nist.gov/vuln/detail/CVE-2025-9680,2025-01-15
+CVE-2022-6029,2022-11-19,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.7,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.04735,https://nvd.nist.gov/vuln/detail/CVE-2022-6029,2025-01-15
+CVE-2025-9571,2025-12-20,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,6.5,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.02513,https://nvd.nist.gov/vuln/detail/CVE-2025-9571,2025-01-15
+CVE-2022-2931,2022-01-21,Authentication bypass in Embedded IoT Gateway session handling allows unauthenticated attacker to bypass administrative controls,8.2,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.008,https://nvd.nist.gov/vuln/detail/CVE-2022-2931,2025-01-15
+CVE-2026-5893,2026-02-22,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.1,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.00307,https://nvd.nist.gov/vuln/detail/CVE-2026-5893,2025-01-15
+CVE-2025-4073,2025-03-23,SQL injection flaw in Web Application Firewall backend parser allows unauthorized read and write access to sensitive database tables,8.9,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.00671,https://nvd.nist.gov/vuln/detail/CVE-2025-4073,2025-01-15
+CVE-2024-6618,2024-04-24,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,6.4,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.02735,https://nvd.nist.gov/vuln/detail/CVE-2024-6618,2025-01-15
+CVE-2022-2062,2022-05-25,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.6,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.0184,https://nvd.nist.gov/vuln/detail/CVE-2022-2062,2025-01-15
+CVE-2022-1391,2022-06-26,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,7.8,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.03915,https://nvd.nist.gov/vuln/detail/CVE-2022-1391,2025-01-15
+CVE-2022-7585,2022-07-27,Authentication bypass in Cloud Database Engine session handling allows unauthenticated attacker to bypass administrative controls,8.8,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.01711,https://nvd.nist.gov/vuln/detail/CVE-2022-7585,2025-01-15
+CVE-2024-5171,2024-08-28,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.7,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.02205,https://nvd.nist.gov/vuln/detail/CVE-2024-5171,2025-01-15
+CVE-2023-8805,2023-09-01,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,5.9,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.01967,https://nvd.nist.gov/vuln/detail/CVE-2023-8805,2025-01-15
+CVE-2026-1064,2026-10-02,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.7,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.04224,https://nvd.nist.gov/vuln/detail/CVE-2026-1064,2025-01-15
+CVE-2025-1717,2025-11-03,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.02695,https://nvd.nist.gov/vuln/detail/CVE-2025-1717,2025-01-15
+CVE-2025-3368,2025-12-04,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,6.6,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.00637,https://nvd.nist.gov/vuln/detail/CVE-2025-3368,2025-01-15
+CVE-2022-9787,2022-01-05,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,7.3,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.8884,https://nvd.nist.gov/vuln/detail/CVE-2022-9787,2025-01-15
+CVE-2026-1606,2026-02-06,Privilege escalation in Embedded IoT Gateway daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.8,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.02533,https://nvd.nist.gov/vuln/detail/CVE-2026-1606,2025-01-15
+CVE-2023-7303,2023-03-07,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,8.0,IoT Systems,Embedded IoT Gateway,1.7.0,1.8.5,,True,0.67322,https://nvd.nist.gov/vuln/detail/CVE-2023-7303,2025-01-15
+CVE-2022-3961,2022-04-08,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.8,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.01704,https://nvd.nist.gov/vuln/detail/CVE-2022-3961,2025-01-15
+CVE-2026-8385,2026-05-09,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,6.4,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,True,0.83296,https://nvd.nist.gov/vuln/detail/CVE-2026-8385,2025-01-15
+CVE-2023-7184,2023-06-10,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,8.1,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.55427,https://nvd.nist.gov/vuln/detail/CVE-2023-7184,2025-01-15
+CVE-2025-7190,2025-07-11,Authentication bypass in Core Banking Framework session handling allows unauthenticated attacker to bypass administrative controls,8.7,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.83108,https://nvd.nist.gov/vuln/detail/CVE-2025-7190,2025-01-15
+CVE-2024-1956,2024-08-12,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.6,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.04709,https://nvd.nist.gov/vuln/detail/CVE-2024-1956,2025-01-15
+CVE-2026-8385,2026-09-13,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.7,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.67249,https://nvd.nist.gov/vuln/detail/CVE-2026-8385,2025-01-15
+CVE-2025-7002,2025-10-14,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.1,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.02623,https://nvd.nist.gov/vuln/detail/CVE-2025-7002,2025-01-15
+CVE-2025-6450,2025-11-15,Privilege escalation in Identity Provider SaaS daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.6,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.03172,https://nvd.nist.gov/vuln/detail/CVE-2025-6450,2025-01-15
+CVE-2024-1504,2024-12-16,SQL injection flaw in Cloud Database Engine backend parser allows unauthorized read and write access to sensitive database tables,8.1,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.00902,https://nvd.nist.gov/vuln/detail/CVE-2024-1504,2025-01-15
+CVE-2026-8164,2026-01-17,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,5.8,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.03137,https://nvd.nist.gov/vuln/detail/CVE-2026-8164,2025-01-15
+CVE-2022-4376,2022-02-18,Pre-authentication buffer overflow in Web Application Firewall network listener leads to remote code execution,9.8,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.03548,https://nvd.nist.gov/vuln/detail/CVE-2022-4376,2025-01-15
+CVE-2022-1391,2022-03-19,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.9,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.04337,https://nvd.nist.gov/vuln/detail/CVE-2022-1391,2025-01-15
+CVE-2026-2678,2026-04-20,Cross-site scripting (XSS) and CSRF in Identity Provider SaaS web interface allows attacker to hijack authenticated analyst sessions,4.6,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.03696,https://nvd.nist.gov/vuln/detail/CVE-2026-2678,2025-01-15
+CVE-2023-4627,2023-05-21,Improper certificate validation in Enterprise Router OS TLS transport handler allows man-in-the-middle data interception,4.1,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.02279,https://nvd.nist.gov/vuln/detail/CVE-2023-4627,2025-01-15
+CVE-2026-5893,2026-06-22,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,8.4,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.01113,https://nvd.nist.gov/vuln/detail/CVE-2026-5893,2025-01-15
+CVE-2023-3869,2023-07-23,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,6.6,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.03631,https://nvd.nist.gov/vuln/detail/CVE-2023-3869,2025-01-15
+CVE-2025-3368,2025-08-24,Privilege escalation in Enterprise Router OS daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.9,NetRoute,Enterprise Router OS,12.0,12.5,,True,0.91983,https://nvd.nist.gov/vuln/detail/CVE-2025-3368,2025-01-15
+CVE-2026-7019,2026-09-25,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,5.3,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.0036,https://nvd.nist.gov/vuln/detail/CVE-2026-7019,2025-01-15
+CVE-2026-5893,2026-10-26,Authentication bypass in Cloud Database Engine session handling allows unauthenticated attacker to bypass administrative controls,8.8,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.02744,https://nvd.nist.gov/vuln/detail/CVE-2026-5893,2025-01-15
+CVE-2022-5777,2022-11-27,Privilege escalation in Identity Provider SaaS daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.7,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.02631,https://nvd.nist.gov/vuln/detail/CVE-2022-5777,2025-01-15
+CVE-2024-5488,2024-12-28,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,7.8,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.02698,https://nvd.nist.gov/vuln/detail/CVE-2024-5488,2025-01-15
+CVE-2024-6177,2024-01-01,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,5.2,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.02374,https://nvd.nist.gov/vuln/detail/CVE-2024-6177,2025-01-15
+CVE-2022-2648,2022-02-02,Pre-authentication buffer overflow in Enterprise Router OS network listener leads to remote code execution,9.5,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.03943,https://nvd.nist.gov/vuln/detail/CVE-2022-2648,2025-01-15
+CVE-2025-3693,2025-03-03,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,5.9,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.02701,https://nvd.nist.gov/vuln/detail/CVE-2025-3693,2025-01-15
+CVE-2025-4709,2025-04-04,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,6.1,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.01574,https://nvd.nist.gov/vuln/detail/CVE-2025-4709,2025-01-15
+CVE-2026-7873,2026-05-05,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,6.0,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.04709,https://nvd.nist.gov/vuln/detail/CVE-2026-7873,2025-01-15
+CVE-2023-1197,2023-06-06,Cross-site scripting (XSS) and CSRF in Enterprise Router OS web interface allows attacker to hijack authenticated analyst sessions,4.6,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.02541,https://nvd.nist.gov/vuln/detail/CVE-2023-1197,2025-01-15
+CVE-2022-1190,2022-07-07,Remote code execution in Enterprise Router OS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.2,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.04301,https://nvd.nist.gov/vuln/detail/CVE-2022-1190,2025-01-15
+CVE-2022-5000,2022-08-08,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.0,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.03485,https://nvd.nist.gov/vuln/detail/CVE-2022-5000,2025-01-15
+CVE-2025-7287,2025-09-09,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,5.0,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,True,0.78874,https://nvd.nist.gov/vuln/detail/CVE-2025-7287,2025-01-15
+CVE-2025-6073,2025-10-10,Pre-authentication buffer overflow in Cloud Database Engine network listener leads to remote code execution,9.3,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.02932,https://nvd.nist.gov/vuln/detail/CVE-2025-6073,2025-01-15
+CVE-2024-8343,2024-11-11,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.3,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.01256,https://nvd.nist.gov/vuln/detail/CVE-2024-8343,2025-01-15
+CVE-2023-3869,2023-12-12,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,6.0,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.04932,https://nvd.nist.gov/vuln/detail/CVE-2023-3869,2025-01-15
+CVE-2024-1225,2024-01-13,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,6.6,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.03526,https://nvd.nist.gov/vuln/detail/CVE-2024-1225,2025-01-15
+CVE-2022-1391,2022-02-14,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,7.0,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.04903,https://nvd.nist.gov/vuln/detail/CVE-2022-1391,2025-01-15
+CVE-2022-8404,2022-03-15,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,7.7,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.0207,https://nvd.nist.gov/vuln/detail/CVE-2022-8404,2025-01-15
+CVE-2025-2585,2025-04-16,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.3,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.0367,https://nvd.nist.gov/vuln/detail/CVE-2025-2585,2025-01-15
+CVE-2022-2306,2022-05-17,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.8,NetRoute,Enterprise Router OS,9.0,11.5,,False,0.00681,https://nvd.nist.gov/vuln/detail/CVE-2022-2306,2025-01-15
+CVE-2022-1391,2022-06-18,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.4,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.02732,https://nvd.nist.gov/vuln/detail/CVE-2022-1391,2025-01-15
+CVE-2024-3703,2024-07-19,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,7.3,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.02591,https://nvd.nist.gov/vuln/detail/CVE-2024-3703,2025-01-15
+CVE-2024-9838,2024-08-20,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,7.4,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.01785,https://nvd.nist.gov/vuln/detail/CVE-2024-9838,2025-01-15
+CVE-2025-9571,2025-09-21,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,8.2,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.00274,https://nvd.nist.gov/vuln/detail/CVE-2025-9571,2025-01-15
+CVE-2023-5736,2023-10-22,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,6.3,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.01898,https://nvd.nist.gov/vuln/detail/CVE-2023-5736,2025-01-15
+CVE-2024-2409,2024-11-23,Improper certificate validation in Embedded IoT Gateway TLS transport handler allows man-in-the-middle data interception,4.6,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.69509,https://nvd.nist.gov/vuln/detail/CVE-2024-2409,2025-01-15
+CVE-2022-3141,2022-12-24,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,7.3,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.03403,https://nvd.nist.gov/vuln/detail/CVE-2022-3141,2025-01-15
+CVE-2022-5611,2022-01-25,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.0,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.00891,https://nvd.nist.gov/vuln/detail/CVE-2022-5611,2025-01-15
+CVE-2025-4709,2025-02-26,Pre-authentication buffer overflow in Cloud Database Engine network listener leads to remote code execution,9.3,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.00825,https://nvd.nist.gov/vuln/detail/CVE-2025-4709,2025-01-15
+CVE-2025-6919,2025-03-27,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,8.3,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.01603,https://nvd.nist.gov/vuln/detail/CVE-2025-6919,2025-01-15
+CVE-2023-7905,2023-04-28,Authentication bypass in Enterprise Router OS session handling allows unauthenticated attacker to bypass administrative controls,7.5,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.02281,https://nvd.nist.gov/vuln/detail/CVE-2023-7905,2025-01-15
+CVE-2023-9945,2023-05-01,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,5.9,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.03488,https://nvd.nist.gov/vuln/detail/CVE-2023-9945,2025-01-15
+CVE-2022-2324,2022-06-02,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,7.6,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.04084,https://nvd.nist.gov/vuln/detail/CVE-2022-2324,2025-01-15
+CVE-2026-4072,2026-07-03,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,8.7,SecNet,Web Application Firewall,,,Requires manual verification of active rule engine signatures,False,0.00796,https://nvd.nist.gov/vuln/detail/CVE-2026-4072,2025-01-15
+CVE-2023-8330,2023-08-04,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,5.6,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,True,0.89785,https://nvd.nist.gov/vuln/detail/CVE-2023-8330,2025-01-15
+CVE-2026-6801,2026-09-05,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,7.8,FinTech Systems,Core Banking Framework,1.0.0,3.9.0,,False,0.02173,https://nvd.nist.gov/vuln/detail/CVE-2026-6801,2025-01-15
+CVE-2023-9932,2023-10-06,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,6.6,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.80864,https://nvd.nist.gov/vuln/detail/CVE-2023-9932,2025-01-15
+CVE-2025-7799,2025-11-07,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.4,FinTech Systems,Core Banking Framework,4.3.0,4.8.0,,False,0.01667,https://nvd.nist.gov/vuln/detail/CVE-2025-7799,2025-01-15
+CVE-2026-5175,2026-12-08,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,8.8,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.01245,https://nvd.nist.gov/vuln/detail/CVE-2026-5175,2025-01-15
+CVE-2022-8339,2022-01-09,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,5.9,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.04253,https://nvd.nist.gov/vuln/detail/CVE-2022-8339,2025-01-15
+CVE-2022-9053,2022-02-10,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.1,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.03823,https://nvd.nist.gov/vuln/detail/CVE-2022-9053,2025-01-15
+CVE-2026-5465,2026-03-11,Improper certificate validation in Identity Provider SaaS TLS transport handler allows man-in-the-middle data interception,4.0,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.02042,https://nvd.nist.gov/vuln/detail/CVE-2026-5465,2025-01-15
+CVE-2024-9319,2024-04-12,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,7.4,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.01889,https://nvd.nist.gov/vuln/detail/CVE-2024-9319,2025-01-15
+CVE-2024-4152,2024-05-13,Privilege escalation in Core Banking Framework daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.8,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.02496,https://nvd.nist.gov/vuln/detail/CVE-2024-4152,2025-01-15
+CVE-2022-3502,2022-06-14,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,6.8,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.04749,https://nvd.nist.gov/vuln/detail/CVE-2022-3502,2025-01-15
+CVE-2024-5496,2024-07-15,Authentication bypass in Enterprise Router OS session handling allows unauthenticated attacker to bypass administrative controls,7.9,NetRoute,Enterprise Router OS,,,Manual inspection required for BGP routing daemon sub-module,False,0.67719,https://nvd.nist.gov/vuln/detail/CVE-2024-5496,2025-01-15
+CVE-2026-8574,2026-08-16,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,6.5,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.69421,https://nvd.nist.gov/vuln/detail/CVE-2026-8574,2025-01-15
+CVE-2023-8721,2023-09-17,Request smuggling and cache poisoning in Identity Provider SaaS HTTP request pipeline allows session hijacking,6.7,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.04556,https://nvd.nist.gov/vuln/detail/CVE-2023-8721,2025-01-15
+CVE-2024-3703,2024-10-18,Authentication bypass in Web Application Firewall session handling allows unauthenticated attacker to bypass administrative controls,7.5,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.00307,https://nvd.nist.gov/vuln/detail/CVE-2024-3703,2025-01-15
+CVE-2025-3205,2025-11-19,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.0,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.04436,https://nvd.nist.gov/vuln/detail/CVE-2025-3205,2025-01-15
+CVE-2023-6854,2023-12-20,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,8.8,FinTech Systems,Core Banking Framework,2.0.0,4.1.0,,False,0.43638,https://nvd.nist.gov/vuln/detail/CVE-2023-6854,2025-01-15
+CVE-2022-8114,2022-01-21,Authentication bypass in Cloud Database Engine session handling allows unauthenticated attacker to bypass administrative controls,8.1,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.04707,https://nvd.nist.gov/vuln/detail/CVE-2022-8114,2025-01-15
+CVE-2023-9945,2023-02-22,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,6.0,SecNet,Web Application Firewall,3.0.0,3.1.0,,True,0.96323,https://nvd.nist.gov/vuln/detail/CVE-2023-9945,2025-01-15
+CVE-2025-6301,2025-03-23,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.6,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.00402,https://nvd.nist.gov/vuln/detail/CVE-2025-6301,2025-01-15
+CVE-2022-4104,2022-04-24,Denial of service vulnerability in Core Banking Framework connection pool causes resource exhaustion and service freeze,7.2,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.00616,https://nvd.nist.gov/vuln/detail/CVE-2022-4104,2025-01-15
+CVE-2023-5859,2023-05-25,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,6.1,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.44314,https://nvd.nist.gov/vuln/detail/CVE-2023-5859,2025-01-15
+CVE-2022-5737,2022-06-26,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.9,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.00817,https://nvd.nist.gov/vuln/detail/CVE-2022-5737,2025-01-15
+CVE-2023-7619,2023-07-27,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.0,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.00822,https://nvd.nist.gov/vuln/detail/CVE-2023-7619,2025-01-15
+CVE-2023-8805,2023-08-28,Privilege escalation in Web Application Firewall daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.7,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.00066,https://nvd.nist.gov/vuln/detail/CVE-2023-8805,2025-01-15
+CVE-2026-2069,2026-09-01,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,6.8,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.00332,https://nvd.nist.gov/vuln/detail/CVE-2026-2069,2025-01-15
+CVE-2025-2693,2025-10-02,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,6.8,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.03353,https://nvd.nist.gov/vuln/detail/CVE-2025-2693,2025-01-15
+CVE-2022-2959,2022-11-03,Remote code execution in Core Banking Framework allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.9,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.01016,https://nvd.nist.gov/vuln/detail/CVE-2022-2959,2025-01-15
+CVE-2025-2291,2025-12-04,SQL injection flaw in Core Banking Framework backend parser allows unauthorized read and write access to sensitive database tables,8.4,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.04199,https://nvd.nist.gov/vuln/detail/CVE-2025-2291,2025-01-15
+CVE-2023-6486,2023-01-05,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.8,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.0211,https://nvd.nist.gov/vuln/detail/CVE-2023-6486,2025-01-15
+CVE-2026-1663,2026-02-06,Information disclosure in Enterprise Router OS API endpoint leaks sensitive cryptographic keys and internal session tokens,7.1,NetRoute,Enterprise Router OS,12.0,12.5,,False,0.04853,https://nvd.nist.gov/vuln/detail/CVE-2026-1663,2025-01-15
+CVE-2023-6592,2023-03-07,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,8.4,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.8812,https://nvd.nist.gov/vuln/detail/CVE-2023-6592,2025-01-15
+CVE-2026-3931,2026-04-08,Authentication bypass in Core Banking Framework session handling allows unauthenticated attacker to bypass administrative controls,7.5,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.03939,https://nvd.nist.gov/vuln/detail/CVE-2026-3931,2025-01-15
+CVE-2026-8266,2026-05-09,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,5.5,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.89205,https://nvd.nist.gov/vuln/detail/CVE-2026-8266,2025-01-15
+CVE-2022-3049,2022-06-10,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,7.8,NetRoute,Enterprise Router OS,12.4,13.0,,False,0.02319,https://nvd.nist.gov/vuln/detail/CVE-2022-3049,2025-01-15
+CVE-2023-1262,2023-07-11,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,7.5,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,True,0.82531,https://nvd.nist.gov/vuln/detail/CVE-2023-1262,2025-01-15
+CVE-2026-5107,2026-08-12,Pre-authentication buffer overflow in Web Application Firewall network listener leads to remote code execution,9.0,SecNet,Web Application Firewall,3.0.0,3.1.0,,False,0.43902,https://nvd.nist.gov/vuln/detail/CVE-2026-5107,2025-01-15
+CVE-2024-9110,2024-09-13,Request smuggling and cache poisoning in Enterprise Router OS HTTP request pipeline allows session hijacking,7.1,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.02574,https://nvd.nist.gov/vuln/detail/CVE-2024-9110,2025-01-15
+CVE-2026-3731,2026-10-14,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,5.7,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.04982,https://nvd.nist.gov/vuln/detail/CVE-2026-3731,2025-01-15
+CVE-2026-4440,2026-11-15,Remote code execution in Web Application Firewall allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.5,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.03493,https://nvd.nist.gov/vuln/detail/CVE-2026-4440,2025-01-15
+CVE-2023-5736,2023-12-16,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,6.4,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.82548,https://nvd.nist.gov/vuln/detail/CVE-2023-5736,2025-01-15
+CVE-2024-1699,2024-01-17,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,5.8,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,True,0.73322,https://nvd.nist.gov/vuln/detail/CVE-2024-1699,2025-01-15
+CVE-2026-8400,2026-02-18,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,6.1,IoT Systems,Embedded IoT Gateway,1.8.0,1.9.0,,False,0.02305,https://nvd.nist.gov/vuln/detail/CVE-2026-8400,2025-01-15
+CVE-2024-5488,2024-03-19,SQL injection flaw in Enterprise Router OS backend parser allows unauthorized read and write access to sensitive database tables,8.2,NetRoute,Enterprise Router OS,12.1,12.3,,False,0.01594,https://nvd.nist.gov/vuln/detail/CVE-2024-5488,2025-01-15
+CVE-2026-3914,2026-04-20,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.1,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.02728,https://nvd.nist.gov/vuln/detail/CVE-2026-3914,2025-01-15
+CVE-2025-7668,2025-05-21,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.0,CloudData,Cloud Database Engine,3.0.0,4.9.0,,True,0.91524,https://nvd.nist.gov/vuln/detail/CVE-2025-7668,2025-01-15
+CVE-2025-7420,2025-06-22,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.4,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.00325,https://nvd.nist.gov/vuln/detail/CVE-2025-7420,2025-01-15
+CVE-2022-8996,2022-07-23,Denial of service vulnerability in Embedded IoT Gateway connection pool causes resource exhaustion and service freeze,5.9,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.00994,https://nvd.nist.gov/vuln/detail/CVE-2022-8996,2025-01-15
+CVE-2023-8806,2023-08-24,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.1,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.00643,https://nvd.nist.gov/vuln/detail/CVE-2023-8806,2025-01-15
+CVE-2025-2353,2025-09-25,Request smuggling and cache poisoning in Core Banking Framework HTTP request pipeline allows session hijacking,7.0,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.02198,https://nvd.nist.gov/vuln/detail/CVE-2025-2353,2025-01-15
+CVE-2025-4709,2025-10-26,Denial of service vulnerability in Enterprise Router OS connection pool causes resource exhaustion and service freeze,6.3,NetRoute,Enterprise Router OS,10.0,11.9,,False,0.44818,https://nvd.nist.gov/vuln/detail/CVE-2025-4709,2025-01-15
+CVE-2026-2707,2026-11-27,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.6,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.03513,https://nvd.nist.gov/vuln/detail/CVE-2026-2707,2025-01-15
+CVE-2025-9571,2025-12-28,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,7.4,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.47268,https://nvd.nist.gov/vuln/detail/CVE-2025-9571,2025-01-15
+CVE-2023-8805,2023-01-01,Improper certificate validation in Core Banking Framework TLS transport handler allows man-in-the-middle data interception,4.6,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,True,0.54585,https://nvd.nist.gov/vuln/detail/CVE-2023-8805,2025-01-15
+CVE-2023-9308,2023-02-02,Privilege escalation in Identity Provider SaaS daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.0,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.41732,https://nvd.nist.gov/vuln/detail/CVE-2023-9308,2025-01-15
+CVE-2025-5380,2025-03-03,SQL injection flaw in Cloud Database Engine backend parser allows unauthorized read and write access to sensitive database tables,8.8,CloudData,Cloud Database Engine,5.1.0,5.1.5,,True,0.83179,https://nvd.nist.gov/vuln/detail/CVE-2025-5380,2025-01-15
+CVE-2023-7619,2023-04-04,Authentication bypass in Core Banking Framework session handling allows unauthenticated attacker to bypass administrative controls,7.7,FinTech Systems,Core Banking Framework,3.5.0,4.2.2,,False,0.01828,https://nvd.nist.gov/vuln/detail/CVE-2023-7619,2025-01-15
+CVE-2022-5611,2022-05-05,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,6.9,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.04038,https://nvd.nist.gov/vuln/detail/CVE-2022-5611,2025-01-15
+CVE-2024-2899,2024-06-06,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.3,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.02437,https://nvd.nist.gov/vuln/detail/CVE-2024-2899,2025-01-15
+CVE-2022-2542,2022-07-07,Denial of service vulnerability in Identity Provider SaaS connection pool causes resource exhaustion and service freeze,5.3,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.04127,https://nvd.nist.gov/vuln/detail/CVE-2022-2542,2025-01-15
+CVE-2026-1133,2026-08-08,Information disclosure in Core Banking Framework API endpoint leaks sensitive cryptographic keys and internal session tokens,6.8,FinTech Systems,Core Banking Framework,,,Affects builds prior to patch 4.2.2 unless Q4 security hotfix applied,False,0.00637,https://nvd.nist.gov/vuln/detail/CVE-2026-1133,2025-01-15
+CVE-2023-2679,2023-09-09,SQL injection flaw in Identity Provider SaaS backend parser allows unauthorized read and write access to sensitive database tables,7.9,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.03588,https://nvd.nist.gov/vuln/detail/CVE-2023-2679,2025-01-15
+CVE-2025-9666,2025-10-10,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.7,IoT Systems,Embedded IoT Gateway,1.0.0,1.7.5,,False,0.03326,https://nvd.nist.gov/vuln/detail/CVE-2025-9666,2025-01-15
+CVE-2026-1659,2026-11-11,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,6.4,AuthCorp,Identity Provider SaaS,1.5.0,2.3.0,,False,0.03079,https://nvd.nist.gov/vuln/detail/CVE-2026-1659,2025-01-15
+CVE-2026-2069,2026-12-12,Pre-authentication buffer overflow in Identity Provider SaaS network listener leads to remote code execution,9.8,AuthCorp,Identity Provider SaaS,2.6.0,3.0.0,,False,0.02682,https://nvd.nist.gov/vuln/detail/CVE-2026-2069,2025-01-15
+CVE-2024-3489,2024-01-13,Remote code execution in Embedded IoT Gateway allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.4,IoT Systems,Embedded IoT Gateway,,,Affects firmware builds without TPM attestation enabled,False,0.02615,https://nvd.nist.gov/vuln/detail/CVE-2024-3489,2025-01-15
+CVE-2026-4343,2026-02-14,Information disclosure in Identity Provider SaaS API endpoint leaks sensitive cryptographic keys and internal session tokens,5.4,AuthCorp,Identity Provider SaaS,2.0.0,2.6.0,,False,0.04793,https://nvd.nist.gov/vuln/detail/CVE-2026-4343,2025-01-15
+CVE-2022-6463,2022-03-15,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.3,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.03195,https://nvd.nist.gov/vuln/detail/CVE-2022-6463,2025-01-15
+CVE-2026-5910,2026-04-16,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,5.9,CloudData,Cloud Database Engine,4.0.0,5.0.0,,True,0.83106,https://nvd.nist.gov/vuln/detail/CVE-2026-5910,2025-01-15
+CVE-2025-2484,2025-05-17,Privilege escalation in Cloud Database Engine daemon allows low-privilege attacker to obtain elevated system administrator permissions,8.9,CloudData,Cloud Database Engine,3.0.0,4.9.0,,False,0.02724,https://nvd.nist.gov/vuln/detail/CVE-2025-2484,2025-01-15
+CVE-2026-2060,2026-06-18,Request smuggling and cache poisoning in Cloud Database Engine HTTP request pipeline allows session hijacking,7.1,CloudData,Cloud Database Engine,5.2.0,5.5.0,,False,0.0166,https://nvd.nist.gov/vuln/detail/CVE-2026-2060,2025-01-15
+CVE-2022-2959,2022-07-19,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,8.3,AuthCorp,Identity Provider SaaS,,,Vendor advisory requires manual verification for custom IdP integrations,False,0.01208,https://nvd.nist.gov/vuln/detail/CVE-2022-2959,2025-01-15
+CVE-2025-8192,2025-08-20,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.2,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.03456,https://nvd.nist.gov/vuln/detail/CVE-2025-8192,2025-01-15
+CVE-2023-9815,2023-09-21,Remote code execution in Identity Provider SaaS allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.6,AuthCorp,Identity Provider SaaS,2.4.0,2.5.5,,False,0.01152,https://nvd.nist.gov/vuln/detail/CVE-2023-9815,2025-01-15
+CVE-2026-8041,2026-10-22,Denial of service vulnerability in Web Application Firewall connection pool causes resource exhaustion and service freeze,5.0,SecNet,Web Application Firewall,1.0.0,2.9.0,,False,0.4598,https://nvd.nist.gov/vuln/detail/CVE-2026-8041,2025-01-15
+CVE-2022-1698,2022-11-23,Remote code execution in Core Banking Framework allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.7,FinTech Systems,Core Banking Framework,4.0.0,4.2.5,,False,0.01435,https://nvd.nist.gov/vuln/detail/CVE-2022-1698,2025-01-15
+CVE-2026-5330,2026-12-24,Cross-site scripting (XSS) and CSRF in Embedded IoT Gateway web interface allows attacker to hijack authenticated analyst sessions,4.2,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.02129,https://nvd.nist.gov/vuln/detail/CVE-2026-5330,2025-01-15
+CVE-2024-1395,2024-01-25,Remote code execution in Cloud Database Engine allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.1,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.03919,https://nvd.nist.gov/vuln/detail/CVE-2024-1395,2025-01-15
+CVE-2022-6917,2022-02-26,Privilege escalation in Cloud Database Engine daemon allows low-privilege attacker to obtain elevated system administrator permissions,7.5,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.02744,https://nvd.nist.gov/vuln/detail/CVE-2022-6917,2025-01-15
+CVE-2026-1133,2026-03-27,Request smuggling and cache poisoning in Web Application Firewall HTTP request pipeline allows session hijacking,5.2,SecNet,Web Application Firewall,2.8.0,3.0.5,,False,0.00859,https://nvd.nist.gov/vuln/detail/CVE-2026-1133,2025-01-15
+CVE-2025-4141,2025-04-28,Authentication bypass in Cloud Database Engine session handling allows unauthenticated attacker to bypass administrative controls,8.0,CloudData,Cloud Database Engine,4.0.0,5.0.0,,False,0.03651,https://nvd.nist.gov/vuln/detail/CVE-2025-4141,2025-01-15
+CVE-2026-1412,2026-05-01,Information disclosure in Web Application Firewall API endpoint leaks sensitive cryptographic keys and internal session tokens,7.3,SecNet,Web Application Firewall,2.0.0,2.9.9,,False,0.01517,https://nvd.nist.gov/vuln/detail/CVE-2026-1412,2025-01-15
+CVE-2026-7316,2026-06-02,SQL injection flaw in Embedded IoT Gateway backend parser allows unauthorized read and write access to sensitive database tables,8.4,IoT Systems,Embedded IoT Gateway,1.9.0,2.2.0,,False,0.00672,https://nvd.nist.gov/vuln/detail/CVE-2026-7316,2025-01-15
+CVE-2026-2060,2026-07-03,Remote code execution in Core Banking Framework allows unauthenticated remote attacker to execute arbitrary commands with full system privileges,9.0,FinTech Systems,Core Banking Framework,4.1.0,4.3.0,,False,0.04024,https://nvd.nist.gov/vuln/detail/CVE-2026-2060,2025-01-15
+CVE-2023-7184,2023-08-04,Cross-site scripting (XSS) and CSRF in Cloud Database Engine web interface allows attacker to hijack authenticated analyst sessions,4.3,CloudData,Cloud Database Engine,5.0.0,5.2.0,,False,0.00456,https://nvd.nist.gov/vuln/detail/CVE-2023-7184,2025-01-15
+CVE-2023-1539,2023-09-05,Improper certificate validation in Cloud Database Engine TLS transport handler allows man-in-the-middle data interception,4.2,CloudData,Cloud Database Engine,5.1.0,5.1.5,,False,0.00631,https://nvd.nist.gov/vuln/detail/CVE-2023-1539,2025-01-15
+CVE-2024-2409,2024-10-06,Authentication bypass in Identity Provider SaaS session handling allows unauthenticated attacker to bypass administrative controls,7.5,AuthCorp,Identity Provider SaaS,1.0.0,2.4.5,,False,0.02365,https://nvd.nist.gov/vuln/detail/CVE-2024-2409,2025-01-15
+CVE-2023-9932,2023-11-07,Information disclosure in Embedded IoT Gateway API endpoint leaks sensitive cryptographic keys and internal session tokens,6.7,IoT Systems,Embedded IoT Gateway,0.8.0,1.6.0,,False,0.02529,https://nvd.nist.gov/vuln/detail/CVE-2023-9932,2025-01-15
+CVE-2025-3747,2025-12-08,Cross-site scripting (XSS) and CSRF in Web Application Firewall web interface allows attacker to hijack authenticated analyst sessions,4.1,SecNet,Web Application Firewall,3.1.0,3.5.0,,False,0.00689,https://nvd.nist.gov/vuln/detail/CVE-2025-3747,2025-01-15
+CVE-2023-1466,2023-01-09,Denial of service vulnerability in Cloud Database Engine connection pool causes resource exhaustion and service freeze,7.1,CloudData,Cloud Database Engine,,,Applies to multi-node cluster deployments; verify engine patch level,False,0.02487,https://nvd.nist.gov/vuln/detail/CVE-2023-1466,2025-01-15

@@ -1,16 +1,41 @@
 {
-    "$schema_description": "Defines contextual risk weights and asset criticality attributes for automated vulnerability prioritization triage.",
+    "$schema_description": "Defines contextual risk weights, technologies, and asset criticality attributes for automated vulnerability prioritization triage.",
     "organizations": [
         {
             "org_id": "ORG-001",
             "name": "Global Retail Bank",
             "sector": "Financial Services",
             "risk_appetite": "Low",
+            "service": "Core Banking & Online Transaction Platform",
+            "exposure": "internet-facing",
+            "importance": "critical",
             "weight_modifiers": {
                 "cvss_weight": 0.3,
                 "cisa_kev_weight": 0.45,
                 "first_epss_weight": 0.25
             },
+            "technologies": [
+                {
+                    "vendor": "FinTech Systems",
+                    "product": "Core Banking Framework",
+                    "version": "4.2.1"
+                },
+                {
+                    "vendor": "AuthCorp",
+                    "product": "Identity Provider SaaS",
+                    "version": "2.5.0"
+                },
+                {
+                    "vendor": "Apache",
+                    "product": "http_server",
+                    "version": "2.4.49"
+                },
+                {
+                    "vendor": "OpenSSH",
+                    "product": "openssh",
+                    "version": "8.7"
+                }
+            ],
             "critical_products": [
                 "Core Banking Framework",
                 "Identity Provider SaaS"
@@ -21,11 +46,36 @@
             "name": "Agile Cloud Tech Startup",
             "sector": "Technology",
             "risk_appetite": "High",
+            "service": "Cloud SaaS Platform & Customer API",
+            "exposure": "internet-facing",
+            "importance": "high",
             "weight_modifiers": {
                 "cvss_weight": 0.2,
                 "cisa_kev_weight": 0.2,
                 "first_epss_weight": 0.6
             },
+            "technologies": [
+                {
+                    "vendor": "CloudData",
+                    "product": "Cloud Database Engine",
+                    "version": "5.1.2"
+                },
+                {
+                    "vendor": "SecNet",
+                    "product": "Web Application Firewall",
+                    "version": "3.0.4"
+                },
+                {
+                    "vendor": "NodeJS",
+                    "product": "express",
+                    "version": "4.17.3"
+                },
+                {
+                    "vendor": "nginx",
+                    "product": "nginx",
+                    "version": "1.18.0"
+                }
+            ],
             "critical_products": [
                 "Cloud Database Engine",
                 "Web Application Firewall"
@@ -36,14 +86,114 @@
             "name": "Municipal Utility Provider",
             "sector": "Critical Infrastructure",
             "risk_appetite": "Zero-Tolerance",
+            "service": "Substation Telemetry & Internal Grid Control",
+            "exposure": "internal",
+            "importance": "critical",
             "weight_modifiers": {
                 "cvss_weight": 0.5,
                 "cisa_kev_weight": 0.4,
                 "first_epss_weight": 0.1
             },
+            "technologies": [
+                {
+                    "vendor": "IoT Systems",
+                    "product": "Embedded IoT Gateway",
+                    "version": "1.8.4"
+                },
+                {
+                    "vendor": "NetRoute",
+                    "product": "Enterprise Router OS",
+                    "version": "12.2"
+                },
+                {
+                    "vendor": "Microsoft",
+                    "product": "sql_server",
+                    "version": "2019"
+                },
+                {
+                    "vendor": "Microsoft",
+                    "product": "windows_server",
+                    "version": "2016"
+                }
+            ],
             "critical_products": [
                 "Embedded IoT Gateway",
                 "Enterprise Router OS"
+            ]
+        },
+        {
+            "org_id": "ORG-004",
+            "name": "Profile D (Apex Global Logistics)",
+            "sector": "Transportation & Supply Chain",
+            "risk_appetite": "Moderate",
+            "service": "Fleet Telematics & Real-Time Dispatch API",
+            "exposure": "internet-facing",
+            "importance": "critical",
+            "weight_modifiers": {
+                "cvss_weight": 0.35,
+                "cisa_kev_weight": 0.35,
+                "first_epss_weight": 0.30
+            },
+            "technologies": [
+                {
+                    "vendor": "apache software foundation",
+                    "product": "httpd",
+                    "version": "2.4.49"
+                },
+                {
+                    "vendor": "wp",
+                    "product": "wp",
+                    "version": "6.1"
+                },
+                {
+                    "vendor": "NodeJS Framework",
+                    "product": "ExpressJS Web Engine",
+                    "version": "4.17.3"
+                },
+                {
+                    "vendor": "NetRoute Systems",
+                    "product": "Enterprise Router OS",
+                    "version": "11.0"
+                },
+                {
+                    "vendor": "IoT Systems",
+                    "product": "Embedded IoT Gateway",
+                    "version": ""
+                },
+                {
+                    "vendor": "Unknown Corp",
+                    "product": "Legacy Mainframe COBOL",
+                    "version": "1.0.0"
+                }
+            ],
+            "critical_products": [
+                "http_server",
+                "wordpress",
+                "express"
+            ]
+        },
+        {
+            "org_id": "ORG-005",
+            "name": "Profile E (Synthetic Zero-Match)",
+            "sector": "Experimental Research",
+            "risk_appetite": "Low",
+            "service": "Air-Gapped Quantum Simulator",
+            "exposure": "internal",
+            "importance": "normal",
+            "weight_modifiers": {
+                "cvss_weight": 0.33,
+                "cisa_kev_weight": 0.33,
+                "first_epss_weight": 0.34
+            },
+            "technologies": [
+                {
+                    "vendor": "QuantumSim Labs",
+                    "product": "Q-Compute Superconducting Runtime",
+                    "version": "0.1.0"
+                }
+            ],
+            "critical_products": [
+                "Q-Compute Superconducting Runtime"
             ]
         }
     ]
