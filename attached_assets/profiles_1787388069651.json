@@ -195,6 +195,52 @@
             "critical_products": [
                 "Q-Compute Superconducting Runtime"
             ]
+        },
+        {
+            "org_id": "ORG-006",
+            "name": "Helios Health (Telehealth & Patient Gateway)",
+            "sector": "Digital Health & Life Sciences",
+            "risk_appetite": "Low",
+            "service": "Patient Portal & Real-Time Telehealth Gateway",
+            "exposure": "internet-facing",
+            "importance": "critical",
+            "weight_modifiers": {
+                "cvss_weight": 0.35,
+                "cisa_kev_weight": 0.45,
+                "first_epss_weight": 0.20
+            },
+            "technologies": [
+                {
+                    "vendor": "nginx",
+                    "product": "nginx",
+                    "version": "1.18.0"
+                },
+                {
+                    "vendor": "AuthCorp",
+                    "product": "Identity Provider SaaS",
+                    "version": "2.6.0"
+                },
+                {
+                    "vendor": "SecNet",
+                    "product": "Web Application Firewall",
+                    "version": "3.0.4"
+                },
+                {
+                    "vendor": "MedHealth Solutions",
+                    "product": "Clinical EHR Core Engine",
+                    "version": "1.4.2"
+                },
+                {
+                    "vendor": "OpenSSH",
+                    "product": "openssh",
+                    "version": ""
+                }
+            ],
+            "critical_products": [
+                "Clinical EHR Core Engine",
+                "Identity Provider SaaS",
+                "Web Application Firewall"
+            ]
         }
     ]
 }
