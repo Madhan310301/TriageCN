@@ -7,10 +7,16 @@ TriageCN is a 100% client-side, zero-backend vulnerability triage cockpit design
 
 ---
 
-## 1. Sources & Data Pipeline
+## 1. Zero Live Network Dependency & Data Pipeline
 
-TriageCN operates strictly as an in-memory, privacy-preserving static application. **It makes zero live external API calls or telemetry requests.** All evidence is parsed and evaluated locally in the browser:
+TriageCN is engineered to run **100% offline and locally** with zero external network or live API dependencies in the judged path, strictly adhering to the hackathon guidelines (*"The demo must run without paid data, paid software, or a live API dependency"*):
 
+- **Zero Runtime Network Calls**: No `fetch()`, `axios`, WebSockets, or live vulnerability data API queries (no live calls to NIST NVD, CISA KEV, or FIRST EPSS).
+- **Zero Live LLM Dependency**: Title generation, score explanations, and next-step actions are 100% deterministic template-driven using only data present in the local CVE row.
+- **Static In-Memory Bundling**: All 540 CVE records and organizational profiles are loaded into browser memory at build/startup time.
+- **Traceability Reference Links**: The `reference_url` fields in the UI are static HTML anchor hyperlinks to NIST NVD for human practitioner provenance inspection on manual click — they are never queried programmatically at runtime.
+
+### Data Sources:
 1. **`vulnerabilities_1787388069651.csv`** (540 CVE records):
    - Contains: `cve_id`, `vendor`, `product_name`, `version_start`, `version_end`, `version_note`, `published_date`, `description`, `cvss`, `kev`, `epss`, `reference_url`, `source_snapshot_date`.
 2. **`profiles_1787388069651.json`** (Organizational Contexts):
