@@ -135,22 +135,36 @@ $$\text{Score} = \left(\frac{\text{CVSS}}{10}\right) \times W_{\text{CVSS}} + \t
 
 ---
 
-## 5. Assumptions
+## 5. Data Sources & Attribution
 
+- **Vulnerability Datasets**: Vulnerability data is sourced from NIST's National Vulnerability Database (NVD), CISA's Known Exploited Vulnerabilities (KEV) catalog, and FIRST's Exploit Prediction Scoring System (EPSS), used under each source's respective public usage terms.
+- **Static Demonstration Snapshot**: This is a static, frozen snapshot for demonstration purposes — not a live feed — and is not officially affiliated with, endorsed by, or representing NIST, CISA, or FIRST.
+- **Synthetic Fictional Profiles**: All organisation profiles (Global Retail Bank, Agile Cloud Tech Startup, Municipal Utility Provider, Profile D, Profile E, Helios Health) are entirely fictional and synthetic; no real organisations, real vulnerabilities-in-context, or personal data are represented.
+
+---
+
+## 6. Scope & Ethical Use Disclaimer
+
+- **Defensive Triage Aid Only**: This prototype is a defensive prioritization tool designed solely to assist security analysts. It reports which known vulnerabilities match a stated technology profile — it never claims an organisation is secure, immune, or vulnerability-free.
+- **Zero Scanning / Probing**: No scanning, probing, or live testing of any network or software system occurs. No exploit code is included, executed, or generated.
+- **Zero Personal Data**: No personal identifiable information (PII) is collected, stored, processed, or displayed anywhere in the application.
+
+---
+
+## 7. Assumptions & Known Limitations
+
+### Assumptions:
 1. **Version Format**: Versions in profiles and CVE records follow standard semantic versioning (`major.minor.patch`) or clean numeric prefixes.
 2. **Deterministic Aliases**: Canonical alias mappings cover standard software catalog variations.
 3. **Point-in-Time Snapshot**: Data represents the evaluation snapshot timestamp; dynamic external updates require refreshing the local CSV dataset.
 
----
-
-## 6. Known Limitations
-
-1. **Semantic Versioning Boundary**: Version comparison assumes clean semantic versioning. Non-standard or vendor-specific version formats are routed to **Needs Verification** with a calibrated confidence penalty (-0.05) rather than being auto-matched or erroneously excluded, ensuring defensive analyst review.
+### Known Limitations:
+1. **Semantic Versioning Boundary**: Version comparison assumes clean semantic versioning. Non-standard or vendor-specific version formats are safely routed to **Needs Verification** with a calibrated confidence penalty (-0.05) rather than being auto-matched or erroneously excluded, ensuring defensive analyst review.
 2. **Static Local Snapshot**: Designed exclusively for offline zero-network execution without live external enrichment or background network callbacks.
 
 ---
 
-## 7. Quick Setup Guide (< 5 Minutes)
+## 8. Quick Setup Guide (< 5 Minutes)
 
 ### Prerequisites:
 - **Node.js** >= 18.0.0
@@ -181,6 +195,6 @@ pnpm run preview
 
 ---
 
-## 8. License
+## 9. License
 
 MIT License. Designed and developed for the Nexora 2k26 Hackathon.
