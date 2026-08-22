@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personalised Vulnerability Triage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0B1220; --surface:#121B2E; --surface-alt:#182338; --line:#25314A;
+    --text:#E7ECF3; --muted:#8FA0B8; --urgent:#FF6B4A; --high:#FFB454; --medium:#6FD3C7; --low:#5B7290;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--text);
+    font-family:'Inter',system-ui,sans-serif; line-height:1.5;}
+  .mono{font-family:'IBM Plex Mono',ui-monospace,monospace;}
+  h1,h2,h3{font-family:'Space Grotesk',system-ui,sans-serif; margin:0;}
+  header{padding:28px 32px 20px; border-bottom:1px solid var(--line);
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;}
+  header .brand{display:flex; flex-direction:column; gap:2px;}
+  header .brand span.eyebrow{font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);}
+  header .brand h1{font-size:22px; font-weight:700;}
+  .switcher{display:flex; align-items:center; gap:10px;}
+  .switcher label{font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em;}
+  select{background:var(--surface-alt); color:var(--text); border:1px solid var(--line);
+    border-radius:8px; padding:8px 12px; font-size:14px; font-family:inherit;}
+  main{max-width:900px; margin:0 auto; padding:28px 32px 80px;}
+  .profile-strip{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:26px;}
+  .chip{font-size:12px; padding:5px 10px; border-radius:999px; background:var(--surface-alt);
+    color:var(--muted); border:1px solid var(--line);}
+  .chip.strong{color:var(--text); border-color:#3A4A6B;}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:12px;
+    margin-bottom:16px; overflow:hidden; display:flex;}
+  .rank{width:56px; flex:0 0 56px; display:flex; align-items:flex-start; justify-content:center;
+    padding-top:20px; font-family:'Space Grotesk'; font-weight:700; font-size:20px; color:var(--muted);}
+  .stripe{width:5px; flex:0 0 5px;}
+  .card-body{padding:18px 22px 20px; flex:1; min-width:0;}
+  .card-top{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:8px;}
+  .band{font-size:11px; font-weight:700; letter-spacing:.08em; padding:3px 9px; border-radius:5px;}
+  .cve{font-size:12px; color:var(--muted);}
+  .title{font-size:17px; font-weight:600; margin:2px 0 12px; font-family:'Space Grotesk';}
+  .barwrap{display:flex; height:10px; border-radius:5px; overflow:hidden; margin-bottom:6px; background:var(--surface-alt);}
+  .barlegend{display:flex; gap:12px; flex-wrap:wrap; font-size:11px; color:var(--muted); margin-bottom:14px;}
+  .barlegend span.dot{display:inline-block; width:8px; height:8px; border-radius:2px; margin-right:4px;}
+  .field{margin-bottom:10px; font-size:14px;}
+  .field b{color:var(--muted); font-weight:500; font-size:12px; text-transform:uppercase; letter-spacing:.06em; display:block; margin-bottom:2px;}
+  .next-step{display:inline-block; margin-top:2px; padding:4px 10px; border-radius:6px; background:var(--surface-alt);
+    border:1px solid var(--line); font-size:13px; font-weight:600;}
+  .trace{font-size:12px; color:var(--muted); margin-top:12px; padding-top:12px; border-top:1px dashed var(--line);}
+  .trace a{color:var(--medium);}
+  .empty{padding:40px; text-align:center; color:var(--muted); border:1px dashed var(--line); border-radius:12px;}
+  .negative-toggle{cursor:pointer; user-select:none; display:flex; align-items:center; gap:8px;
+    font-family:'Space Grotesk'; font-weight:600; font-size:15px; margin:30px 0 12px; color:var(--text);}
+  .negative-toggle .arrow{transition:transform .15s ease; color:var(--muted);}
+  .negative-toggle.open .arrow{transform:rotate(90deg);}
+  .negative-panel{display:none; border:1px solid var(--line); border-radius:12px; background:var(--surface); overflow:hidden;}
+  .negative-panel.open{display:block;}
+  .neg-row{padding:12px 18px; border-bottom:1px solid var(--line); font-size:13px; display:flex; gap:14px; align-items:baseline;}
+  .neg-row:last-child{border-bottom:none;}
+  .neg-cvss{font-family:'IBM Plex Mono'; color:var(--urgent); font-weight:600; flex:0 0 46px;}
+  .neg-id{font-family:'IBM Plex Mono'; color:var(--text); flex:0 0 150px;}
+  .neg-status{flex:0 0 90px; font-size:11px; letter-spacing:.05em; color:var(--muted); text-transform:uppercase;}
+  .neg-reason{color:var(--muted); flex:1;}
+  footer{max-width:900px; margin:0 auto; padding:0 32px 60px; color:var(--muted); font-size:12px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="eyebrow">Personalised Vulnerability Triage</span>
+    <h1 id="orgName">—</h1>
+  </div>
+  <div class="switcher">
+    <label for="profileSelect">Profile</label>
+    <select id="profileSelect"></select>
+  </div>
+</header>
+<main>
+  <div class="profile-strip" id="profileStrip"></div>
+  <div id="cards"></div>
+  <div class="negative-toggle" id="negToggle"><span class="arrow">▸</span> What we checked and excluded (CVSS ≥ 9.0)</div>
+  <div class="negative-panel" id="negPanel"></div>
+</main>
+<footer>Every figure above traces back to a row in vulnerabilities.csv (synthetic demo data, snapshot dated in the file). This report was generated fully offline — no live NVD/KEV/EPSS calls were made.</footer>
+
+<script>
+const RESULTS = [{"profile_id": "riverside-university", "profile_name": "Riverside State University", "profile": {"profile_id": "riverside-university", "name": "Riverside State University", "sector": "education", "technologies": [{"vendor": "apache", "product": "http_server", "version": "2.4.49"}, {"vendor": "wordpress", "product": "wordpress", "version": "6.1"}, {"vendor": "openssh", "product": "openssh", "version": "8.7"}, {"vendor": "nodejs", "product": "express", "version": "4.17.3"}], "service": "student portal", "exposure": "internet-facing", "importance": "critical"}, "message": null, "top5": [{"cve_id": "CVE-2024-58831", "priority_band": "URGENT", "score_breakdown": {"kev": 40, "epss": 24, "exposure": 20, "importance": 15, "cvss": 10, "confidence_penalty": 0, "total": 109}, "title": "Attackers are already exploiting a flaw where an attacker could run their own code on the software running your student portal", "matched_context": {"profile_technology": "apache http_server 2.4.49", "service": "student portal", "exposure": "internet-facing", "importance": "critical", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it's on CISA's Known Exploited Vulnerabilities list, meaning it's being used in real attacks right now; and it has a high predicted exploitation likelihood (EPSS 94%); and its CVSS severity score is 9.8/10.", "potential_impact": "Based on the vendor's own description: Path traversal in mod_rewrite allows remote code execution via a crafted request. No further consequence beyond what's stated here is assumed.", "next_step": "escalate", "confidence": {"level": "High", "reason": "exact product match and the installed version falls cleanly inside the affected range"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58831", "raw_row_vendor_product": "Apache Software Foundation / httpd"}}, {"cve_id": "CVE-2024-59102", "priority_band": "URGENT", "score_breakdown": {"kev": 40, "epss": 24, "exposure": 20, "importance": 15, "cvss": 10, "confidence_penalty": 0, "total": 109}, "title": "Attackers are already exploiting a flaw where an attacker could run their own code on the software running your student portal", "matched_context": {"profile_technology": "openssh openssh 8.7", "service": "student portal", "exposure": "internet-facing", "importance": "critical", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it's on CISA's Known Exploited Vulnerabilities list, meaning it's being used in real attacks right now; and it has a high predicted exploitation likelihood (EPSS 97%); and its CVSS severity score is 9.8/10.", "potential_impact": "Based on the vendor's own description: Pre-authentication race condition leads to remote code execution. No further consequence beyond what's stated here is assumed.", "next_step": "escalate", "confidence": {"level": "High", "reason": "exact product match and the installed version falls cleanly inside the affected range"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-59102", "raw_row_vendor_product": "OpenSSH / openssh"}}, {"cve_id": "CVE-2024-58910", "priority_band": "URGENT", "score_breakdown": {"kev": 40, "epss": 20, "exposure": 20, "importance": 15, "cvss": 8, "confidence_penalty": 0, "total": 103}, "title": "Attackers are already exploiting a flaw where an attacker could log in without credentials to the software running your student portal", "matched_context": {"profile_technology": "wordpress wordpress 6.1", "service": "student portal", "exposure": "internet-facing", "importance": "critical", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it's on CISA's Known Exploited Vulnerabilities list, meaning it's being used in real attacks right now; and it has a high predicted exploitation likelihood (EPSS 81%); and its CVSS severity score is 7.5/10.", "potential_impact": "Based on the vendor's own description: Authentication bypass in the REST API allows unauthenticated post edits. No further consequence beyond what's stated here is assumed.", "next_step": "escalate", "confidence": {"level": "High", "reason": "exact product match and the installed version falls cleanly inside the affected range"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58910", "raw_row_vendor_product": "WordPress / wordpress"}}, {"cve_id": "CVE-2024-61600", "priority_band": "HIGH", "score_breakdown": {"kev": 0, "epss": 24, "exposure": 20, "importance": 15, "cvss": 9, "confidence_penalty": -10, "total": 58}, "title": "A flaw exists where an attacker could run their own code on the software running your student portal", "matched_context": {"profile_technology": "nodejs express 4.17.3", "service": "student portal", "exposure": "internet-facing", "importance": "critical", "match_layer": "fuzzy", "similarity": 0.966}, "why_it_matters": "This matters because it has a high predicted exploitation likelihood (EPSS 95%); and its CVSS severity score is 8.6/10.", "potential_impact": "Based on the vendor's own description: Prototype pollution in a popular JS web framework leads to remote code execution. No further consequence beyond what's stated here is assumed.", "next_step": "patch", "confidence": {"level": "Medium", "reason": "product name matched by similarity (0.966), not an exact catalog entry \u2014 worth a manual check"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-61600", "raw_row_vendor_product": "Node JS / Express"}}, {"cve_id": "CVE-2024-60901", "priority_band": "HIGH", "score_breakdown": {"kev": 0, "epss": 11, "exposure": 20, "importance": 15, "cvss": 9, "confidence_penalty": 0, "total": 55}, "title": "A flaw exists where this vulnerability could be used against the software running your student portal", "matched_context": {"profile_technology": "apache http_server 2.4.49", "service": "student portal", "exposure": "internet-facing", "importance": "critical", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it has a modest predicted exploitation likelihood (EPSS 44%); and its CVSS severity score is 8.6/10.", "potential_impact": "Based on the vendor's own description: Request splitting in mod_http2 leading to cache poisoning. No further consequence beyond what's stated here is assumed.", "next_step": "patch", "confidence": {"level": "High", "reason": "exact product match and the installed version falls cleanly inside the affected range"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-60901", "raw_row_vendor_product": "Apache Software Foundation / Apache HTTP Server"}}], "negative_test": [{"cve_id": "CVE-2024-61455", "cvss_score": 9.9, "status": "EXCLUDED", "reason": "product 'Cisco IOS' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Remote code execution in a network device operating system", "vendor": "Cisco", "product": "IOS"}, {"cve_id": "CVE-2023-49044", "cvss_score": 9.8, "status": "EXCLUDED", "reason": "product 'Microsoft SQL Server' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Deserialization of untrusted data allows remote code execution", "vendor": "Microsoft", "product": "SQL Server"}, {"cve_id": "CVE-2024-60099", "cvss_score": 9.8, "status": "EXCLUDED", "reason": "product 'F5 BIG-IP' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Unauthenticated RCE in the management interface of a network appliance", "vendor": "F5", "product": "BIG-IP"}, {"cve_id": "CVE-2024-60123", "cvss_score": 9.6, "status": "EXCLUDED", "reason": "product 'Fortinet FortiOS' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Authentication bypass in the admin portal of a VPN appliance OS", "vendor": "Fortinet", "product": "FortiOS"}, {"cve_id": "CVE-2024-61500", "cvss_score": 9.1, "status": "EXCLUDED", "reason": "installed version 8.7 is above the affected range (6.0-7.9)", "breakdown": null, "band": null, "description": "Legacy key-exchange downgrade allows session hijacking on old builds", "vendor": "OpenSSH", "product": "openssh"}, {"cve_id": "CVE-2022-41040-D", "cvss_score": 9.1, "status": "EXCLUDED", "reason": "product 'Microsoft Windows Server' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Legacy RCE in an unpatched IIS/SSRS component", "vendor": "Microsoft", "product": "Windows Server"}, {"cve_id": "CVE-2024-60321", "cvss_score": 9.0, "status": "EXCLUDED", "reason": "product 'PHP Group PHP' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Deserialization flaw allows remote code execution", "vendor": "PHP Group", "product": "PHP"}]}, {"profile_id": "coastal-retail", "profile_name": "Coastal Retail Co", "profile": {"profile_id": "coastal-retail", "name": "Coastal Retail Co", "sector": "retail", "technologies": [{"vendor": "microsoft", "product": "sql_server", "version": "2019"}, {"vendor": "microsoft", "product": "windows_server", "version": "2016"}, {"vendor": "nginx", "product": "nginx", "version": "1.18.0"}], "service": "internal inventory system", "exposure": "internal", "importance": "normal"}, "message": null, "top5": [{"cve_id": "CVE-2023-49044", "priority_band": "URGENT", "score_breakdown": {"kev": 40, "epss": 22, "exposure": 5, "importance": 5, "cvss": 10, "confidence_penalty": -5, "total": 77}, "title": "Attackers are already exploiting a flaw where an attacker could run their own code on the software running your internal inventory system", "matched_context": {"profile_technology": "microsoft sql_server 2019", "service": "internal inventory system", "exposure": "internal", "importance": "normal", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it's on CISA's Known Exploited Vulnerabilities list, meaning it's being used in real attacks right now; and it has a high predicted exploitation likelihood (EPSS 90%); and its CVSS severity score is 9.8/10.", "potential_impact": "Based on the vendor's own description: Deserialization of untrusted data allows remote code execution. No further consequence beyond what's stated here is assumed.", "next_step": "verify version", "confidence": {"level": "Medium", "reason": "the vendor data doesn't give a clean version range, so this needs a manual version check"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49044", "raw_row_vendor_product": "Microsoft / SQL Server"}}, {"cve_id": "CVE-2023-40077", "priority_band": "URGENT", "score_breakdown": {"kev": 40, "epss": 19, "exposure": 5, "importance": 5, "cvss": 8, "confidence_penalty": 0, "total": 77}, "title": "Attackers are already exploiting a flaw where a low-privilege user or attacker could gain admin-level control of the software running your internal inventory system", "matched_context": {"profile_technology": "microsoft windows_server 2016", "service": "internal inventory system", "exposure": "internal", "importance": "normal", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it's on CISA's Known Exploited Vulnerabilities list, meaning it's being used in real attacks right now; and it has a high predicted exploitation likelihood (EPSS 77%); and its CVSS severity score is 8.4/10.", "potential_impact": "Based on the vendor's own description: Print spooler flaw allows local privilege escalation. No further consequence beyond what's stated here is assumed.", "next_step": "patch", "confidence": {"level": "High", "reason": "exact product match and the installed version falls cleanly inside the affected range"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-40077", "raw_row_vendor_product": "Microsoft / Windows Server"}}, {"cve_id": "CVE-2024-60011", "priority_band": "LOW", "score_breakdown": {"kev": 0, "epss": 7, "exposure": 5, "importance": 5, "cvss": 7, "confidence_penalty": 0, "total": 24}, "title": "A flaw exists where an attacker could slip malicious requests past the software running your internal inventory system", "matched_context": {"profile_technology": "nginx nginx 1.18.0", "service": "internal inventory system", "exposure": "internal", "importance": "normal", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it has a modest predicted exploitation likelihood (EPSS 28%); and its CVSS severity score is 7.2/10.", "potential_impact": "Based on the vendor's own description: HTTP request smuggling via inconsistent Content-Length handling. No further consequence beyond what's stated here is assumed.", "next_step": "monitor", "confidence": {"level": "High", "reason": "exact product match and the installed version falls cleanly inside the affected range"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-60011", "raw_row_vendor_product": "nginx / nginx"}}, {"cve_id": "CVE-2024-61300", "priority_band": "LOW", "score_breakdown": {"kev": 0, "epss": 8, "exposure": 5, "importance": 5, "cvss": 8, "confidence_penalty": -5, "total": 21}, "title": "A flaw exists where a low-privilege user or attacker could gain admin-level control of the software running your internal inventory system", "matched_context": {"profile_technology": "microsoft sql_server 2019", "service": "internal inventory system", "exposure": "internal", "importance": "normal", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it has a modest predicted exploitation likelihood (EPSS 30%); and its CVSS severity score is 8.2/10.", "potential_impact": "Based on the vendor's own description: Elevation of privilege in the SQL Agent service. No further consequence beyond what's stated here is assumed.", "next_step": "verify version", "confidence": {"level": "Medium", "reason": "the vendor data doesn't give a clean version range, so this needs a manual version check"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-61300", "raw_row_vendor_product": "Microsoft Corp / SQL Server"}}, {"cve_id": "CVE-2024-60711", "priority_band": "LOW", "score_breakdown": {"kev": 0, "epss": 5, "exposure": 5, "importance": 5, "cvss": 6, "confidence_penalty": 0, "total": 21}, "title": "A flaw exists where this vulnerability could be used against the software running your internal inventory system", "matched_context": {"profile_technology": "nginx nginx 1.18.0", "service": "internal inventory system", "exposure": "internal", "importance": "normal", "match_layer": "exact", "similarity": null}, "why_it_matters": "This matters because it has a modest predicted exploitation likelihood (EPSS 20%); and its CVSS severity score is 6.5/10.", "potential_impact": "Based on the vendor's own description: TLS session resumption flaw allows session reuse across contexts. No further consequence beyond what's stated here is assumed.", "next_step": "monitor", "confidence": {"level": "High", "reason": "exact product match and the installed version falls cleanly inside the affected range"}, "traceability": {"source": "vulnerabilities.csv", "source_snapshot_date": "2025-01-15", "reference_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-60711", "raw_row_vendor_product": "nginx / nginx"}}], "negative_test": [{"cve_id": "CVE-2024-61455", "cvss_score": 9.9, "status": "EXCLUDED", "reason": "product 'Cisco IOS' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Remote code execution in a network device operating system", "vendor": "Cisco", "product": "IOS"}, {"cve_id": "CVE-2024-58831", "cvss_score": 9.8, "status": "EXCLUDED", "reason": "product 'Apache Software Foundation httpd' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Path traversal in mod_rewrite allows remote code execution via a crafted request", "vendor": "Apache Software Foundation", "product": "httpd"}, {"cve_id": "CVE-2024-59102", "cvss_score": 9.8, "status": "EXCLUDED", "reason": "product 'OpenSSH openssh' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Pre-authentication race condition leads to remote code execution", "vendor": "OpenSSH", "product": "openssh"}, {"cve_id": "CVE-2024-60099", "cvss_score": 9.8, "status": "EXCLUDED", "reason": "product 'F5 BIG-IP' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Unauthenticated RCE in the management interface of a network appliance", "vendor": "F5", "product": "BIG-IP"}, {"cve_id": "CVE-2024-60123", "cvss_score": 9.6, "status": "EXCLUDED", "reason": "product 'Fortinet FortiOS' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Authentication bypass in the admin portal of a VPN appliance OS", "vendor": "Fortinet", "product": "FortiOS"}, {"cve_id": "CVE-2022-41040-D", "cvss_score": 9.1, "status": "EXCLUDED", "reason": "installed version 2016 is above the affected range (2003-2012)", "breakdown": null, "band": null, "description": "Legacy RCE in an unpatched IIS/SSRS component", "vendor": "Microsoft", "product": "Windows Server"}, {"cve_id": "CVE-2024-61500", "cvss_score": 9.1, "status": "EXCLUDED", "reason": "product 'OpenSSH openssh' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Legacy key-exchange downgrade allows session hijacking on old builds", "vendor": "OpenSSH", "product": "openssh"}, {"cve_id": "CVE-2024-60321", "cvss_score": 9.0, "status": "EXCLUDED", "reason": "product 'PHP Group PHP' is not in this profile's technology stack", "breakdown": null, "band": null, "description": "Deserialization flaw allows remote code execution", "vendor": "PHP Group", "product": "PHP"}]}];
+const BAND_COLORS = {"URGENT": "#FF6B4A", "HIGH": "#FFB454", "MEDIUM": "#6FD3C7", "LOW": "#5B7290"};
+const SEG_COLORS = {"kev": "#FF6B4A", "epss": "#FFB454", "exposure": "#6FD3C7", "importance": "#8C8CFF", "cvss": "#5B7290", "confidence_penalty": "#3A3F4B"};
+const SEG_LABELS = {kev:"KEV", epss:"EPSS", exposure:"Exposure", importance:"Importance", cvss:"CVSS", confidence_penalty:"Confidence penalty"};
+
+const select = document.getElementById('profileSelect');
+RESULTS.forEach((r, i) => {
+  const opt = document.createElement('option');
+  opt.value = i; opt.textContent = r.profile_name;
+  select.appendChild(opt);
+});
+
+function renderBar(breakdown) {
+  const positive = Object.entries(breakdown).filter(([k,v]) => k !== 'total' && k !== 'confidence_penalty' && v > 0);
+  const maxSum = positive.reduce((a,[,v]) => a+v, 0) || 1;
+  const segsHtml = positive.map(([k,v]) => `<div style="width:${(v/maxSum*100).toFixed(1)}%; background:${SEG_COLORS[k]}"></div>`).join('');
+  const legendHtml = Object.entries(breakdown).filter(([k]) => k!=='total').map(([k,v]) =>
+    `<span><span class="dot" style="background:${SEG_COLORS[k]}"></span>${SEG_LABELS[k]} ${v>0?'+':''}${v}</span>`).join('');
+  return `<div class="barwrap">${segsHtml}</div><div class="barlegend">${legendHtml}<span style="margin-left:auto; color:var(--text); font-weight:600">total ${breakdown.total}</span></div>`;
+}
+
+function renderCard(card, idx) {
+  const color = BAND_COLORS[card.priority_band];
+  const mc = card.matched_context;
+  return `
+  <div class="card">
+    <div class="rank">${idx+1}</div>
+    <div class="stripe" style="background:${color}"></div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="band" style="background:${color}22; color:${color}">${card.priority_band}</span>
+        <span class="cve mono">${card.cve_id}</span>
+      </div>
+      <div class="title">${card.title}</div>
+      ${renderBar(card.score_breakdown)}
+      <div class="field"><b>Matched context</b>${mc.profile_technology} &middot; ${mc.service} &middot; ${mc.exposure} &middot; ${mc.importance} importance
+        ${mc.match_layer === 'fuzzy' ? ` &middot; matched by similarity (${mc.similarity})` : ''}</div>
+      <div class="field"><b>Why it matters</b>${card.why_it_matters}</div>
+      <div class="field"><b>Potential impact</b>${card.potential_impact}</div>
+      <div class="field"><b>Confidence</b>${card.confidence.level} — ${card.confidence.reason}</div>
+      <div class="field"><b>Next step</b><span class="next-step">${card.next_step}</span></div>
+      <div class="trace mono">source: ${card.traceability.source} (snapshot ${card.traceability.source_snapshot_date}) &middot;
+        <a href="${card.traceability.reference_url}" target="_blank" rel="noopener">${card.traceability.reference_url}</a></div>
+    </div>
+  </div>`;
+}
+
+function renderNegative(list) {
+  if (!list.length) return '<div class="neg-row"><span class="neg-reason">No CVSS ≥ 9.0 findings were excluded or ranked low for this profile.</span></div>';
+  return list.map(n => `
+    <div class="neg-row">
+      <span class="neg-cvss mono">${n.cvss_score}</span>
+      <span class="neg-id">${n.cve_id}</span>
+      <span class="neg-status">${n.status}</span>
+      <span class="neg-reason">${n.reason}</span>
+    </div>`).join('');
+}
+
+function render(i) {
+  const r = RESULTS[i];
+  document.getElementById('orgName').textContent = r.profile_name;
+  const p = r.profile;
+  document.getElementById('profileStrip').innerHTML = `
+    <span class="chip strong">${p.sector}</span>
+    <span class="chip strong">${p.service}</span>
+    <span class="chip ${p.exposure === 'internet-facing' ? 'strong' : ''}">${p.exposure}</span>
+    <span class="chip ${p.importance === 'critical' ? 'strong' : ''}">${p.importance} importance</span>
+    <span class="chip">${p.technologies.length} technologies in stack</span>`;
+
+  const cardsEl = document.getElementById('cards');
+  if (!r.top5.length) {
+    cardsEl.innerHTML = `<div class="empty">${r.message}</div>`;
+  } else {
+    cardsEl.innerHTML = r.top5.map(renderCard).join('');
+  }
+  document.getElementById('negPanel').innerHTML = renderNegative(r.negative_test);
+}
+
+select.addEventListener('change', (e) => render(parseInt(e.target.value, 10)));
+render(0);
+
+const negToggle = document.getElementById('negToggle');
+const negPanel = document.getElementById('negPanel');
+negToggle.addEventListener('click', () => {
+  negToggle.classList.toggle('open');
+  negPanel.classList.toggle('open');
+});
+</script>
+</body>
+</html>
