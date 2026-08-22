@@ -1,6 +1,6 @@
 # TriageCN — Context-Aware Vulnerability Triage & Remediation Prioritization Engine
 
-> **Live Deployment:** [https://madhan310301.github.io/TriageCN/](https://madhan310301.github.io/TriageCN/) (or [Vercel Deployment](https://triage-cn.vercel.app))  
+ 
 > **Repository:** [https://github.com/Madhan310301/TriageCN](https://github.com/Madhan310301/TriageCN)
 
 TriageCN is a 100% client-side, zero-backend vulnerability triage cockpit designed to solve **security alert fatigue**. Rather than sorting hundreds of CVEs by naive CVSS scores, TriageCN evaluates technical severity, active in-the-wild exploitation (CISA KEV), likelihood of exploitation (EPSS), asset exposure, service criticality, and exact software inventory version ranges to generate a defensible, context-aware **Top 5 Actionable Remediation Queue**.
@@ -68,7 +68,12 @@ Every vulnerability record against an organizational profile is processed throug
    - Excluded records are accompanied by an auditable `exclusion_reason`.
 
 ### Alias Canonicalization Table
-Common industry naming variations are normalized deterministically (e.g. `httpd` $ightarrow$ `http_server`, `wp` $ightarrow$ `wordpress`, `nodejs framework` $ightarrow$ `nodejs`, `expressjs web engine` $ightarrow$ `express`, `microsoft corp` $ightarrow$ `microsoft`).
+Common industry naming variations are normalized deterministically (e.g. `httpd` $
+ightarrow$ `http_server`, `wp` $
+ightarrow$ `wordpress`, `nodejs framework` $
+ightarrow$ `nodejs`, `expressjs web engine` $
+ightarrow$ `express`, `microsoft corp` $
+ightarrow$ `microsoft`).
 
 ### Semantic Version Comparison
 Versions are compared chunk-by-chunk using integer tuples, cleanly handling partial semver (e.g., `2.4.49` vs `2.4.50`, `6.1` vs `6.0`, `11.0` vs `10.0`).
@@ -79,22 +84,30 @@ Versions are compared chunk-by-chunk using integer tuples, cleanly handling part
 
 The scoring engine evaluates the formula:
 
-$$	ext{Score} = left(rac{	ext{CVSS}}{10}ight) 	imes W_{	ext{CVSS}} + 	ext{KEV} 	imes W_{	ext{KEV}} + 	ext{EPSS} 	imes W_{	ext{EPSS}} + 	ext{Exposure Bonus} + 	ext{Importance Bonus} - 	ext{Confidence Penalty}$$
+$$	ext{Score} = left(rac{	ext{CVSS}}{10}
+ight) 	imes W_{	ext{CVSS}} + 	ext{KEV} 	imes W_{	ext{KEV}} + 	ext{EPSS} 	imes W_{	ext{EPSS}} + 	ext{Exposure Bonus} + 	ext{Importance Bonus} - 	ext{Confidence Penalty}$$
 
 ### Term Definitions:
 - **CVSS Base Score ($rac{	ext{CVSS}}{10} 	imes W_{	ext{CVSS}}$)**: Technical severity normalized from 0.0 to 1.0.
 - **CISA KEV ($	ext{KEV} 	imes W_{	ext{KEV}}$)**: Binary flag (1.0 or 0.0) indicating whether CISA has confirmed active exploitation in the wild.
 - **First EPSS ($	ext{EPSS} 	imes W_{	ext{EPSS}}$)**: Exploit Prediction Scoring System probability (0.000 to 1.000).
 - **Asset Exposure Bonus**:
-  - `internet-facing` service $ightarrow$ **+0.20**
-  - `internal` service $ightarrow$ **+0.05**
+  - `internet-facing` service $
+ightarrow$ **+0.20**
+  - `internal` service $
+ightarrow$ **+0.05**
 - **Asset Importance Bonus**:
-  - `critical` asset $ightarrow$ **+0.15**
-  - `high` asset $ightarrow$ **+0.10**
-  - `normal` asset $ightarrow$ **+0.05**
+  - `critical` asset $
+ightarrow$ **+0.15**
+  - `high` asset $
+ightarrow$ **+0.10**
+  - `normal` asset $
+ightarrow$ **+0.05**
 - **Confidence Penalty**:
-  - `INCLUDE_NEEDS_VERIFICATION` (unverified version) $ightarrow$ **-0.05**
-  - `Fuzzy Match` ($ge 70\%$ similarity) $ightarrow$ **-0.10**
+  - `INCLUDE_NEEDS_VERIFICATION` (unverified version) $
+ightarrow$ **-0.05**
+  - `Fuzzy Match` ($ge 70\%$ similarity) $
+ightarrow$ **-0.10**
 
 ### Priority Bands:
 - **URGENT**: Score $ge 0.70$
@@ -107,11 +120,14 @@ All in-scope records (`INCLUDE_RANK` and `INCLUDE_NEEDS_VERIFICATION`) are sorte
 
 ---
 
-## 4. Ground-Truth Validation (Spearman $ho = 1.00$)
+## 4. Ground-Truth Validation (Spearman $
+ho = 1.00$)
 
 TriageCN's ranking engine was validated against the practitioner gold set:
-- **Global Retail Bank (ORG-001)**: $ho = mathbf{1.00}$ ($p < 0.001$, perfect monotonic correlation).
-- **Agile Cloud Startup (ORG-002)**: $ho = mathbf{1.00}$ ($p < 0.001$, perfect monotonic correlation).
+- **Global Retail Bank (ORG-001)**: $
+ho = mathbf{1.00}$ ($p < 0.001$, perfect monotonic correlation).
+- **Agile Cloud Startup (ORG-002)**: $
+ho = mathbf{1.00}$ ($p < 0.001$, perfect monotonic correlation).
 
 ---
 
