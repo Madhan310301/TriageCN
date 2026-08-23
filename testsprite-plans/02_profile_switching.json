@@ -1,0 +1,13 @@
+{
+  "type": "frontend",
+  "name": "TriageCN - Switch Organizational Profiles and Recalculate Triage Queue",
+  "description": "Verify that selecting different organizational profiles (e.g., Global Retail Bank vs Agile Cloud Tech Startup vs Zero-Match) updates asset importance and recalculates queue rankings.",
+  "priority": "p0",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the home page" },
+    { "type": "action", "description": "Select the profile dropdown or organization selector and switch from Global Retail Bank to Agile Cloud Tech Startup" },
+    { "type": "assertion", "description": "Verify the active profile indicator updates to Agile Cloud Tech Startup and the remediation queue scores update accordingly" },
+    { "type": "action", "description": "Select the profile selector again and switch to Synthetic Zero-Match (ORG-005)" },
+    { "type": "assertion", "description": "Verify the view displays 'Nothing matched this profile in the supplied data' rather than fabricating artificial rankings" }
+  ]
+}

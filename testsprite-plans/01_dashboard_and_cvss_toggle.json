@@ -1,0 +1,12 @@
+{
+  "type": "frontend",
+  "name": "TriageCN - View Top 5 Prioritized Queue and Toggle CVSS Comparison",
+  "description": "Verify that the main dashboard displays the Top 5 Actionable Remediation Queue cards and that toggling the CVSS comparison switch shows personalized vs naive scoring.",
+  "priority": "p0",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the home page" },
+    { "type": "assertion", "description": "Verify the main heading 'TriageCN' is visible and the Top 5 Actionable Remediation Queue contains 5 prioritized vulnerability cards" },
+    { "type": "action", "description": "Click the 'VS CVSS-Only' comparison toggle switch" },
+    { "type": "assertion", "description": "Verify the dashboard updates to display side-by-side comparison between Naive CVSS sorting and Personalized Triage ranking" }
+  ]
+}

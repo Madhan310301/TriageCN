@@ -1,0 +1,11 @@
+{
+  "type": "frontend",
+  "name": "TriageCN - Export Filtered Queue to CSV",
+  "description": "Verify that clicking the CSV Export button triggers downloading the current prioritized queue.",
+  "priority": "p1",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the home page" },
+    { "type": "action", "description": "Click the 'Export CSV' button in the toolbar" },
+    { "type": "assertion", "description": "Verify the export trigger succeeds and the CSV download action completes" }
+  ]
+}

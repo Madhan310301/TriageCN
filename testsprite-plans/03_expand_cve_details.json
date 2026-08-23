@@ -1,0 +1,11 @@
+{
+  "type": "frontend",
+  "name": "TriageCN - Expand Priority Queue Row to Inspect CVE Rationale and Match Layer",
+  "description": "Verify that clicking a vulnerability row expands inline details showing description, match layer, version comparison, and NVD reference hyperlink.",
+  "priority": "p1",
+  "planSteps": [
+    { "type": "action", "description": "Navigate to the home page" },
+    { "type": "action", "description": "Click on the first vulnerability card or table row in the Priority Queue" },
+    { "type": "assertion", "description": "Verify the row expands to show detailed CVE description, match outcome layer (e.g., EXACT MATCH or FUZZY), installed vs affected versions, and NVD reference URL link" }
+  ]
+}
